@@ -49,6 +49,10 @@ permalink: /schedule/
                       <li>{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</li>
                     {% endif %}
                   {% endfor %}
+                {% elsif class.read %}
+                  {% for item in class.read %}
+                    <li>{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+                  {% endif %}
                 {% else %}
                   <li><i>No reading</i></li>
                 {% endif %}
