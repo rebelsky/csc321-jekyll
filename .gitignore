@@ -7,8 +7,9 @@
 *.ps
 *.pdf
 
-# Don't ignore the .html files in headers
-!_dev/_includes/*.html
+# Don't ignore the files in includes or layouts
+!_dev/_includes/*
+!_dev/_layouts/*
 
 # Ignore files created by random editors
 *~
