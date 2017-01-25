@@ -7,6 +7,9 @@
 *.ps
 *.pdf
 
+# Don't ignore the .html files in headers
+!_dev/_includes/*.html
+
 # Ignore files created by random editors
 *~
 *.swp
@@ -53,6 +56,9 @@ Gemfile.lock
 
 # Ignore the forks that I keep handy
 forks/*
+
+# Ignore some resources I keep handy
+CSC151
 
 # +---------------------+--------------------------------------------
 # | Fork-Specific Rules |

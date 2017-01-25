@@ -1,0 +1,80 @@
+<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+<nav class="navbar navbar-inverse">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="navbar-brand"><a style="color: white;" href="{{ site.baseurl | append: "/" }}">{{ site.title }}</a><br>
+        <span class="subtitle">{{ page.url | append: "/front-door" | remove_first: '/' | remove: '.html' | split: '/' | first: }}</span>
+      </div>
+    </div> <!-- /.navbar-header -->
+    <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Primary<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="{{ site.baseurl | append: '/' }}">Front Door</a></li>
+            <li><a href="{{ site.baseurl | append: '/schedule' }}">Schedule</a></li>
+            <li><a href="{{ site.baseurl | append: '/news' }}">News</a></li>
+            <li><a href="{{ site.baseurl | append: '/syllabus' }}">Syllabus</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="https://rebelsky.youcanbook.me">Book an appointment</a></li>
+
+            <li role="separator" class="divider"></li>
+            <li><a href="{{ site.baseurl | append: '/handouts/academic-honesty' }}">Academic Honesty</a></li>
+            <li><a href="{{ site.baseurl | append: '/handouts/accessibility' }}">Accessibility</a></li>
+            <li><a href="{{ site.baseurl | append: '/handouts/accommodations' }}">Accommodations and Adjustments</a></li>
+            <li><a href="{{ site.baseurl | append: '/handouts/email' }}">Email</a></li>
+            <li><a href="{{ site.baseurl | append: '/handouts/faq' }}">FAQ</a></li>
+            <li><a href="{{ site.baseurl | append: '/handouts/teaching' }}">Teaching and Learning</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Current<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="{{ site.baseurl | append: '/assignments/current' }}">Current Assignment</a></li>
+            <li><a href="{{ site.baseurl | append: '/eboards/current' }}">Current EBoard</a></li>
+            <li><a href="{{ site.baseurl | append: '/exams/current' }}">Current Exam</a></li>
+            <li><a href="{{ site.baseurl | append: '/labs/current' }}">Current Lab</a></li>
+            <li><a href="{{ site.baseurl | append: '/outlines/current' }}">Current Outline</a></li>
+            <li><a href="{{ site.baseurl | append: '/readings/current' }}">Current Reading</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sections<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="{{ site.baseurl | append: '/assignments/' }}">Assignments</a></li>
+            <li><a href="{{ site.baseurl | append: '/eboards/' }}">EBoards</a></li>
+            <li><a href="{{ site.baseurl | append: '/exams/' }}">Exams</a></li>
+            <li><a href="{{ site.baseurl | append: '/labs/' }}">Labs</a></li>
+            <li><a href="{{ site.baseurl | append: '/outlines/' }}">Outlines</a></li>
+            <li><a href="{{ site.baseurl | append: '/readings/' }}">Readings</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="{{ site.baseurl | append: '/handouts/reference/' }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Reference<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Related Courses<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Misc<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://www.cs.grinnell.edu/~rebelsky/">SamR</a></li>
+            <li><a href="http://www.cs.grinnell.edu/~rebelsky/glimmer/">Glimmer Labs</a></li>
+            <li><a href="http://www.cs.grinnell.edu">Grinnell CS</a></li>
+            <li><a href="http://www.grinnell.edu">Grinnell</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div> <!-- /.nav-collapse -->
+  </div><!-- /.container -->
+</nav>

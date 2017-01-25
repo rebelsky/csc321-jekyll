@@ -1,0 +1,4 @@
+{% if include.item.link %}<a href="{{ include.item.url | prepend: site.baseurl }}">{% endif %}
+{% if include.item.section %}{{ include.item.section }}:{% endif %}
+{{ include.item.title }}{% if include.item.link %}</a>{% endif %}{% if include.item.subtitle and include.show-subtitle %}: <i>{{ include.item.subtitle }}</i>{% endif %}
+{% if include.show-due-time and include.item.due-time %}<i> (by {{ include.item.due-time }})</i>{% endif %}
