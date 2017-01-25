@@ -5,7 +5,7 @@ default:
 .PHONY: generic
 generic:
 	@if [ ! `git remote | grep '^generic$$'` ]; then \
-	  git remote add generic https://github.com/rebelsky/generic-course/jekyll; \
+	  git remote add generic https://github.com/rebelsky/generic-course-jekyll; \
 	fi
 
 # Pull from the generic course
