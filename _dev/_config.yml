@@ -1,8 +1,8 @@
 # Site settings
-title: GENERIC COURSE
-courseid: CSC 000.01
-baseurl: /~rebelsky/Courses/CSC000/2017S
-url: http://www.cs.grinnell.edu/~rebelsky/Courses/CSC000/2017S
+title: Software Design Principles and Practices
+courseid: CSC 321.01
+baseurl: /~rebelsky/Courses/CSC321/2017S
+url: http://www.cs.grinnell.edu/~rebelsky/Courses/CSC321/2017S
 
 # Collections of things
 collections:
