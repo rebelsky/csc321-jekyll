@@ -7,7 +7,7 @@ These are the notes I've prepared in advance of each class session.
 They may or may not reflect what actually happens in the session.
 (See the [EBoards](../eboards/) for a record of what happened in class.)
 
-{% assign outlines = site.outlines | sort: 'held' | reverse %}
+{% assign outlines = site.outlines | sort: 'number' | reverse %}
 {% for outline in outlines %}
   {% if outline.link %}
   {% assign num = outline.number %}
