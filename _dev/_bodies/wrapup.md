@@ -1,4 +1,6 @@
-The Subject Matter(s) of the Course
+---
+---
+The subject matter(s) of the course
 -----------------------------------
 
 * Conceptual: Getting you to think about the design of software.

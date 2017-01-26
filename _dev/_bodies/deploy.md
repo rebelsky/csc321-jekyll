@@ -1,3 +1,5 @@
+---
+---
 Setting Up Your First Rails App
 -------------------------------
 
