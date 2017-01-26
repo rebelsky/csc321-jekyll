@@ -1,3 +1,4 @@
+
 .text-nowrap {
   white-space: nowrap;
 }
@@ -39,7 +40,7 @@ table.table tbody tr td {
 }
 
 table.table tbody tr.week-header {
-  background-color: #0000df;
+  background-color: #dddddd;
   font-weight: bold;
   color: #ffffff;
 }
@@ -59,8 +60,8 @@ nav.navbar-inverse
 .navbar-inverse .navbar-form,
 .navbar-collapse.collapse,
 .navbar-collapse.collapsing {
-  background-color: #0000ff;
-  border-color: #3f007d;
+  background-color: #cc0000;
+  border-color: #a30000;
 }
 
 nav.navbar-inverse .navbar-nav .active a,
@@ -68,7 +69,7 @@ nav.navbar-inverse .navbar-nav a:hover,
 nav.navbar-inverse .navbar-nav .active a:hover,
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
-  background-color: #3f007d;
+  background-color: #a30000;
 }
 
 table ul.list-unstyled {
