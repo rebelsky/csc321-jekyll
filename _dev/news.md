@@ -8,19 +8,17 @@ Class news
 *This news is copied from the daily outlines.*
 
 {% assign dates = "" | split: "|" %}
-{% assign counter = 0 %}
 {% for week_data in site.data.dates %}
   {% if week_data.days %}
     {% assign newdates = week_data.days | join: '|' %}
     {% assign dates = dates | join: '|' | append: '|' | append: newdates | split: '|' %}
   {% endif %}
 {% endfor %}
-{% assign prelim = site.prelim | sort: 'title' | reverse %}
+{% assign prelim = site.prelim %}
 
-{% for item in prelim %}
-  {% assign counter = counter | plus: '1' %}
-  {% assign held = dates[counter] %}
-
+{% assign numbers = (1..prelim.size) | reverse %}
+{% for counter in numbers %}
+{% assign held = dates[counter] %}
 ## Class {{ counter }} ({{ held | date: '%A, %-d %B %Y' }})
 
 {% if counter < 10 %}
