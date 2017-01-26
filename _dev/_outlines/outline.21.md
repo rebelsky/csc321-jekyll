@@ -1,7 +1,6 @@
 ---
 title: Outline 21
 number: 21
-helder: 2017-06-30
-link: true
+link: false
 ---
 {% include outline.md %}
