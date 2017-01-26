@@ -1,3 +1,8 @@
+---
+title: Eboard 2
+section: eboards
+current: true
+---
 CSC321.01 2017S, Class 02: Getting Started with Ruby
 ====================================================
 
@@ -51,6 +56,8 @@ Other comments ...
 
 Some Ruby Problems
 ------------------
+
+*We did not get to this section.  You are likely to do it in homework.*
 
 Write `sums_to_n?(vals,val)` that returns true if any two distinct
 values from `vals` (a list of values) sums to `val`.

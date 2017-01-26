@@ -1,3 +1,7 @@
+---
+title: Eboard 1
+section: eboards
+---
 CSC321.01 2017F, Class 01: An Introduction to the Course
 ========================================================
 
