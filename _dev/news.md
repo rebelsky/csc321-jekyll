@@ -5,7 +5,7 @@ section: top-level
 Class news
 ==========
 
-*This news is copied from the daily outlines.*
+*This information is copied from the daily outlines.*
 
 {% assign dates = "" | split: "|" %}
 {% for week_data in site.data.dates %}
@@ -18,16 +18,32 @@ Class news
 
 {% assign numbers = (1..prelim.size) | reverse %}
 {% for counter in numbers %}
-{% assign held = dates[counter] %}
+  {% if counter < 10 %}
+    {% capture num %}0{{ counter }}{% endcapture %}
+  {% else %}
+    {% capture num %}{{ counter }}{% endcapture %}
+  {% endif %}
+  {% capture filepath %}_prelim/prelim.{{ num }}.md{% endcapture %}
+  {% assign info = site.prelim | where: "path", filepath | first %}
+  {% if info %}
+     {% if info.link %}
+       {% assign held = dates[counter] %}
 ## Class {{ counter }} ({{ held | date: '%A, %-d %B %Y' }})
 
-{% if counter < 10 %}
-{% capture fname %}prelim.0{{ counter }}.md{% endcapture %}
-{% else %}
-{% capture fname %}prelim.{{ counter }}.md{% endcapture %}
-{% endif %}
+{{ info.content }}
+<hr/>
+     {% endif %}
+  {% else %}
+**Can't find daily preliminaries!**
 
-{% include prelim.md counter=counter %}
+counter: {{ counter }}
+
+num: {{ num }}
+
+info: {{ info }}
+
+filepath: {{ filepath }}
 
 <hr/>
+  {% endif %}
 {% endfor %}

@@ -89,54 +89,25 @@ At the beginning of the semester
 
         make pull-generic
 
-4. Edit `resources/course.ent`, which has the course-specific information.
+4. Edit `_dev/config.yml.`, which has some course-specific information.
 
-        vi resources/course.ent
+        vi _dev/_config.yml
 
-5. Make sure that `resources/dates.ent` is linked to the appropriate
-   list of dates for the current course.
+5. Edit `_dev/_data/dates.yml` for the subset of dates for the current
+   semester.  (You may find it helpful to copy from the master.)
 
-6. Edit `resources/links.xsl`, which contains the links to previous offerings
-(among other things).
+6. Edit `_dev/_data/classes.yml` to indicate the order of topics.
 
-7. Make `resources/subjects.ent`, which is required by a bunch of other files.
+7. Edit `_dev/_data/info.yml` to update other information.
 
-        cd resources
-        make subjects.ent
+8. Edit `_dev/_includes/head.html` to choose the appropriate color scheme.
+(You may also want to add another color scheme to the `css` folder.)
 
-8. Edit `home/index.sect` or `home/index.md`, which contains the front
-   door for the course.
+9. Edit `index.md` to provide basic course information.
 
-9. Set up the schedule files (some details in a section below)
+10. Edit `syllabus.md` to provide additional course information.
 
-a. Make the directory `handouts/overviews`.
-
-b. In the `handouts` directory, run `../tools/schedule-overviews`.
-
-c. Also make sure to check `handouts/Makefile`, since `schedule.html` 
-   `sched.html` are automatically generated from that file.
-
-10. Clear out and rebuild the daily administrative notes.
-
-        cd outlines
-        rm admin/*
-        ../tools/all-outline-parts 56
-        
-11. Run Make at the top level, just to make sure that things are okay
-
-        make
-
-12. Look at a page on the Web
-
-13. Commit and push the changes that you've just made.
-
-14. Create a separate dev site (optional).
-
-15. Consider updating the style so that students can distinguish semesters.
-
-16. Update the .course file in the eboardds directory.
-
-17. Start editing and creating!
+11. Try it.
 
 At the End of the Semester
 --------------------------
@@ -168,11 +139,11 @@ It goes something like this.
 
 2. Clone the original repository onto your local machine
 
-        git clone git@github.com:rebelsky/generic-course.git 2017S
+        git clone git@github.com:rebelsky/generic-course-jekyll.git 2017S
 
    or
 
-        git clone http://github.com/rebelsky/generic-course 2017S
+        git clone http://github.com/rebelsky/generic-course-jekyll 2017S
 
 3. Edit the Git config file
 
