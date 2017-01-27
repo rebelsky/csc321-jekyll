@@ -16,15 +16,19 @@ A brief introduction to Ruby
   we might expect.
 * Disadvantage: Too many ways to express the same concept.
 
-    if TEST consequent
-    consequent if TEST
-    if TEST
-      consequent
-    end
-    unless not TEST
-      consquent
-    end
-    consequent unless not TEST
+        if TEST consequent
+    
+        consequent if TEST
+    
+        if TEST
+          consequent
+        end
+    
+        unless not TEST
+          consquent
+        end
+    
+        consequent unless not TEST
 
 Some Ruby exercises
 -------------------

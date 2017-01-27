@@ -1,6 +1,8 @@
 ---
 title: Outline 3
 number: 3
-link: false
+held: 2017-01-27
+link: true
+current: true
 ---
 {% include outline.md %}

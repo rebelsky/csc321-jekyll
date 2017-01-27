@@ -1,7 +1,6 @@
 ---
 title: Eboard 2
 section: eboards
-current: true
 ---
 CSC321.01 2017S, Class 02: Getting Started with Ruby
 ====================================================

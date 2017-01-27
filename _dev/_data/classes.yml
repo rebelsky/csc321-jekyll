@@ -11,6 +11,11 @@
   abbrev: ruby-continued
   read: SaaSbook 3.1-3.4.
   summary: We continue to investigate some issues in Ruby.
+  subjects:
+    - A brief introduction to Ruby
+    - Some exercises
+    - Interesting characteristics of Ruby
+    - Q&A
 
 - topic: Deploying Rails applications
   abbrev: deploy
