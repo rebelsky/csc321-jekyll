@@ -1,6 +1,7 @@
 ---
 title: Preliminaries for class 1
 section: prelim
+link: true
 ---
 ### News / Etc.
 
