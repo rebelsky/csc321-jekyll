@@ -3,7 +3,9 @@ title: Assignments
 permalink: /assignments/
 ---
 # Assignments
-We will have assignments almost every week of the semester, except when you have a take-home exam. You will complete assignments outside of class time with your assigned partner(s). Generally your assignment group will be the same group you were assigned to in class on the Wednesday the assignment was released.
+We will have assignments almost every day of the semester. You can feel
+free to work on assignments alone or to collaborate on any part of an
+assignment.  However, reading journals should be submitted individually.
 
 <dl>
   {% assign assignments = site.assignments | sort: 'due' %}
