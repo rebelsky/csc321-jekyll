@@ -4,7 +4,15 @@ permalink: /exams/current.html
 ---
 {% assign current = site.exams | where: "current", true | first %}
 {% if current %}
-{{ current.content }}
+Current Examination
+===================
+<script language="javascript">
+  document.location = "{{ site.baseurl }}{{ current.url }}";
+</script>
+<p>
+  Our current examination is 
+  <a href="{{ site.baseurl }}{{ current.url }}">{{ current.title }}</a>.
+</p>
 {% else %}
 No current examination
 ======================

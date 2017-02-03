@@ -4,9 +4,15 @@ permalink: /outlines/current.html
 ---
 {% assign current = site.outlines | where: "current", true | first %}
 {% if current %}
-{% assign page.number = current.number %}
-{% assign page.held = current.held %}
-{% include outline.md number=current.number  held=current.held %}
+Current outline 
+================
+<script language="javascript">
+  document.location = "{{ site.baseurl }}{{ current.url }}";
+</script>
+<p>
+  Our current outline is 
+  <a href="{{ site.baseurl }}{{ current.url }}">{{ current.title }}</a>.
+</p>
 {% else %}
 No current outline
 =================
