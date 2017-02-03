@@ -3,7 +3,6 @@ title: Eboard 03  Ruby, continued
 number: 03
 section: eboards
 held: 2017-01-27
-current: true
 ---
 CSC 321.01, Class 03:  Ruby, continued
 ======================================

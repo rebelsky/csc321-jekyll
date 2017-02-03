@@ -20,6 +20,10 @@
 - topic: Deploying Rails applications
   abbrev: deploy
   read: Hartl 1
+  subjects:
+    - A brief introduction to regular expressions
+    - Wrap up Hartl 1
+    - Start Hartl 2
 
 - topic: Your first Rails application
   abbrev: toy-app
