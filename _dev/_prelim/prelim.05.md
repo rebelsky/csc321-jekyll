@@ -1,6 +1,7 @@
 ---
 title: Preliminaries for class 5
 section: prelim
+link: true
 ---
 ### News / Etc.
 

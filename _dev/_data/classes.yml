@@ -31,14 +31,27 @@
 
 - topic: A static site
   abbrev: static-site
+  subjects:
+    - Assorted questions
+    - Yielding
   read: Hartl 3
 
 - topic: An introduction to software engineering
   abbrev: intro-softeng
+  subjects:
+    - Model/View/Controller frameworks
+    - RESTful programming
+    - Models of software engineering
+    - Important agile practices
+    - Why agile?
+    - Why not agile?
+  read: SaaSbook Chapter 1 and sections 10.1-10.2
 
 - topic: User stories
   abbrev: user-stories
-  read: SaaSbook 8.1-8.2
+  read: SaaSbook 7.1-7.5
+  subjects:
+    - Agility, revisited
 
 - topic: Extending your Rails application (1)
   abbrev: extending-rails-1

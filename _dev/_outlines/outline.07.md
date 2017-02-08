@@ -1,6 +1,7 @@
 ---
 title: Outline 7
 number: 7
-link: false
+held: 2017-02-06
+link: true
 ---
 {% include outline.md %}

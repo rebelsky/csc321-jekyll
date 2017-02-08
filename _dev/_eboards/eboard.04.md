@@ -3,7 +3,6 @@ title: Eboard 04  Deploying Rails applications
 number: 04
 section: eboards
 held: 2017-01-30
-current: true
 ---
 CSC 321.01, Class 04:  Deploying Rails applications
 ===================================================

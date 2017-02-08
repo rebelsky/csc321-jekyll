@@ -1,14 +1,10 @@
 ---
 ---
-Planning for Client Meetings
-----------------------------
+MVC, Revisited
+--------------
 
-* Introduce yourselves!
-* Find out ... How to contact them, How much advance notice, ....
-* Ask them to describe the project.
-* What do they see as the most important thing for you to work on
-  this semester?
-* When will you next meet?
+RESTful Software
+----------------
 
 Software Engineering
 --------------------
@@ -19,6 +15,8 @@ _Small group then large group._
   and agile (or at least XP-style agile)
 * What do you as the primary relationships between Plan and Document and Agile?
 * What do you see as the important agile practices?
+* What are reasons to use agile?
+* What are reasons *not* to use agile?
 
 Important Terms
 ---------------
