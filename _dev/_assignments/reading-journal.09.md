@@ -1,7 +1,7 @@
 ---
 title: Reading journal for class 9
 link: true
-due: 2017-02-08
+due: 2017-02-10
 ---
 Reading journal for class 9
 ===========================
