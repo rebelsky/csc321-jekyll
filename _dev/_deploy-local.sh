@@ -2,4 +2,4 @@
 
 TARGET=..
 jekyll build
-rsync -rtz _site/ $TARGET
+time rsync -rtz _site/ $TARGET
