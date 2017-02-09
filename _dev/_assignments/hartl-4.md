@@ -1,0 +1,12 @@
+---
+title: Hartl, Chapter 4
+link: true
+due: 2017-02-10
+current: true
+---
+Hartl, Chapter 4
+================
+
+Do all of the exercises in Hartl, Chapter 4.
+
+Share your Cloud 9 instance with me.
