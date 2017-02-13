@@ -1,9 +1,8 @@
 ---
 title: Eboard 07  An introduction to software engineering
-number: 07
+number: 7
 section: eboards
 held: 2017-02-06
-current: true
 ---
 CSC 321.01, Class 07:  An introduction to software engineering
 ==============================================================

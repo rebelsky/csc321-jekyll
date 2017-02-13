@@ -1,5 +1,5 @@
 ---
-title: Preliminaries for class 9
+title: Preliminaries for class 8
 section: prelim
 link: true
 ---
@@ -7,8 +7,9 @@ link: true
 
 ### Upcoming work
 
-* Hartl, Chapter 5 due Friday.  (Do as much as you can within your time box.)
-* [Reading Journal]({{ site.baseurl }}/assignments/reading-journal.10).
+* Hartl, Chapter 4 due Friday.  (Do as much as you can within your time box.)
+* [Reading Journal]({{ site.baseurl }}/assignments/reading-journal.10)
+  due Monday.
 
 ### Good things to do
 

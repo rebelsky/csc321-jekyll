@@ -53,12 +53,17 @@
   subjects:
     - Agility, revisited
 
+- topic: Pause for breath
+  abbrev: pause-01
+  read: Hartl 4
+
 - topic: Extending your Rails application (1)
   abbrev: extending-rails-1
   read: Hartl 5
-
-- topic: Pause for breath
-  abbrev: pause-01
+  subjects:
+    - Accessibility
+    - Important Web technologies and their roles
+    - Lab time
 
 - topic: Modeling basics
   abbrev: modeling-basics

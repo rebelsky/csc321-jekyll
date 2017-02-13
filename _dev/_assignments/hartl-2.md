@@ -2,7 +2,6 @@
 title: Hartl, Chapter 2
 link: true
 due: 2017-02-01
-current: true
 ---
 Hartl, Chapter 2
 ================

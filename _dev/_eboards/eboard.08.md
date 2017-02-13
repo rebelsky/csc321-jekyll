@@ -1,8 +1,9 @@
 ---
 title: Eboard 08  User stories
-number: 08
+number: 8
 section: eboards
 held: 2017-02-08
+link: true
 ---
 CSC 321.01, Class 08:  User stories
 ===================================
@@ -12,18 +13,21 @@ _Overview_
 * Preliminaries
     * Notes and news
     * Upcoming work
-    * Extra credit
     * Questions
 * Agility, revisited
+* What user stories
 * User story criteria
 * Sample user stories
 
 ### News / Etc.
 
+* Yes, we are skipping Hartl chapter 4.
+
 ### Upcoming work
 
-* Hartl, Chapter 5 due Friday.  (Do as much as you can within your time box.)
-* [Reading Journal]({{ site.baseurl }}/assignments/reading-journal.10).
+* Hartl, Chapter 4 due Friday.  (Do as much as you can within your time box.)
+* [Reading Journal]({{ site.baseurl }}/assignments/reading-journal.10) due
+  Monday.
 
 ### Good things to do
 
@@ -41,7 +45,34 @@ Agility, revisited
 
 ### Why agile?
 
+* Evidence suggests that it is more likely to bring projects in on time
+  and under budget.  (And then there's www.grinnell.edu)
+* More user focused than both kinds of plan-and-document - regular 
+  check-ins with clients to make sure that you are on target, and to
+  adapt to moving targets.
+* Each iteration is small.  Small is good.  Feels more feasible.  Concrete
+  achievements.
+* Don't spend time on things that aren't going to get done anyway.
+
 ### Why not?
+
+* Wastes time if you have a situation in which plan and document will work.
+* Mostly designed for small and medium projects; little evidence that it
+  works for big projects.
+    * Hard to get everyone together.
+* Good design encourages us to write general code.
+* Some characteristics of projects are not amenable to agile design, such
+  as security.  It's hard to engineer in security afterwards.
+* Odd not to have deadlines.
+* Geographic separation or unavailable client
+* It's not engineering
+* Paying by time, rather than product, is not optimal for the client.
+
+### Good practices
+
+* Allows you to focus on smaller parts, without worrying about the whole
+  project.
+* Give programmers ownership.
 
 User stories
 ------------
@@ -56,42 +87,108 @@ Assessing user stories
 
 What are some criteria we should use as we consider user stories?
 
+* Three primary components
+    * Perspective "As an old person who knows about computers"
+    * Goal "So that I can communicate with my grandchild"
+    * Feature/process "I want to be able to type a message and click a button and have the message delivered directly to my grandchild's cortex."
+    * Aka "Who we are, what we want to do, and why"
+* Clear and straightforward; unambiguous
+* SMART - Specific, Measurable, Achievable, Relevant, Time-boxed
+* Nice to have examples for clarification!
+
 Some user stories to assess
 ---------------------------
 
 For each
 
-* Is it a good story?  Why or why not?
+* Is it a good (SMART) story?  Why or why not?
 * Rewrite the story to make it better.
 * Add an example.
 
 ### SpamR
 
-Feature: (Untitled)
+#### Feature: (Untitled)
+
 * As a student, 
 * so make the mail box clear and be able to find the older email, 
 * I want to archive all of the emails.
 
-Feature: add Internship calendar
+Critique
+
+* Not very measurable.
+* Unclear
+* Not specific
+* Ambiguous: What does archive mean?  What does find mean?
+
+Rewrite
+
+* As a student
+* I want to view all of the past emails to csstudents in chronological order
+  from newest to oldest
+* So that I can find newer emails
+
+Critique
+
+* "Store" is odd.  (Replaced with "view" above.)
+
+Example
+
+* Suppose I have the following emails from csstudents
+    * Summer research / From Sam / Dated 2017-01-01 12:01
+    * CS Table / From CC / Dated 2016-09-11 0:30
+    * Thursday Extras / From Reseda / 2017-02-01 0:00
+* They should appear in the order
+    * Thursday Extras / From Reseda / 2017-02-01 0:00
+    * Summer research / From Sam / Dated 2017-01-01 12:01
+    * CS Table / From CC / Dated 2016-09-11 0:30
+ 
+### Feature: Add internship calendar
+
 * As a student 
 * So that I can look at what internship/research positions are available and when their applications are due. 
 
-Feature: Filter emails 
+Critique
+
+* Missing one of the three legs.
+* Perhaps too big.
+* A bit ambiguous.
+
+### Feature: Filter emails 
+
 * As a: student on the cs mailing list
 * So that: I can read only emails that interest me
 * I want to: be able to set filters when viewing emails 
 * (e.g. filtering summer opportunities/grad school programs/Thursday extras etc.)
 
-Feature: (Untitled)
-* As a student 
-* so that can I can catalog everything faculty members have sent to the csstudent group. 
+Critique
 
-Feature: Archive emails sent to CS students
+* How do we measure "emails that interest you"?  How do we know that
+  we are successful.
+* Assumes that emails are categorized.
+* What is filtering?
+
+Rewrite
+
+* As a: student on the cs mailing list
+* So that: I can read the email of interest
+* I want to: Be able to read only the email in a certain category
+* (Implication: Email is categorized.)
+
+### Feature: Archive emails sent to CS students
+
 * As a Grinnell CS professor
 * So that CS students are able to see opportunities for themselves
 * I want to make opportunities visible to all CS students
 
-Feature: (Untitled)
+Critique
+
+* Needs us to read in between the lines.  (Ambiguous)
+* Redundant: action and goal seem similar.
+* Maybe should talk more about details of the implementation.
+* Too "big picture"
+
+### Feature: (Untitled)
+
 * As a student at Grinnell College, 
 * I want a tagging system 
 * so I can easily find archived emails pertaining to internships. 
@@ -192,13 +289,3 @@ Feature: View planned courses for next three years
 * So that I can see how the demand for certain courses is changing over time
 * I want to see all classes planned for each semester for the next three years on the same page and how many students have expressed interest in taking each class each semester
 
-Notes for Sam
--------------
-
-* Tripartite: Actor, goal, action.
-* Specific and clear
-* Small enough to implement in a reasonable amount of time
-* Unambiguous - both cient and implementer can agree 
-* Evaluatable - We are able to know whether or not we have accomplished 
-  what the clients want.
-* Related.

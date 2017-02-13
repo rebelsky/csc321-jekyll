@@ -1,6 +1,6 @@
 ---
 title: Eboard 06  A static site
-number: 06
+number: 6
 section: eboards
 held: 2017-02-03
 link: true

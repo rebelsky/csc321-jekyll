@@ -1,6 +1,6 @@
 ---
 title: Eboard 03  Ruby, continued
-number: 03
+number: 3
 section: eboards
 held: 2017-01-27
 ---
