@@ -3,7 +3,6 @@ title: Eboard 11  Modeling basics
 number: 11
 section: eboards
 held: 2017-02-15
-current: true
 ---
 CSC 321.01, Class 11:  Modeling basics
 ======================================

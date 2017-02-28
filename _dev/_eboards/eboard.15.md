@@ -12,7 +12,6 @@ _Overview_
 * Preliminaries
     * Notes and news
     * Upcoming work
-    * Extra credit
     * Questions
 * Your thoughts about TDD
 * Why test?
@@ -23,15 +22,17 @@ _Overview_
 * I've seen two different guidelines on when this class runs.  One
   guideline says that it's the first seven weeks of the semester.  The
   other says that it's until spring break.  Do you have preferences?
-  (I will also ask CSC 322.)
+  (I will also ask CSC 322.) (Two or three weeks after today.)
 * I'll probably continue some of today's topics on Monday, particularly
   your various questions.
 
 ### Upcoming work
 
-* For Monday, read SaaSbook Chapter 9 and sections 10.4-10.9
-  (Yes, there is a writing journal.)
-* If you have not completed the Sinatra homework, continue working on it.
+* For Monday, read SaaSbook Chapter 9 and sections 10.4-10.9 (mostly about
+  Legacy Code and related issues)
+     * Yes, there is a writing journal.  If you can't find it, let me know.
+* If you have not completed the Sinatra homework, continue working on it
+  for Monday.
 
 ### Good things to do
 
@@ -45,6 +46,8 @@ _Overview_
 * W. Kamau Bell, Tuesday at 6pm, Harris.
 * Prazak Quartet, Tuesday, 28 February 2017, 7:30 p.m., Herrick.
 * CS Extras, Thursday at 4:15 pm, Summer Code Camps
+
+### Friday PSA
 
 ### Questions
 
@@ -104,6 +107,20 @@ Why test?
 What are some important reasons we use testing?  (Three minutes with your
 partners.)
 
+* Sam makes us.
+* It makes the process of writing code faster, since it catches bugs, errors,
+  and/or misconceptions earlier.
+* Helps you make sure that your code is correct before you release it on your
+  unsuspecting client.  (Obligatory joke: Microsoft Unit Testing is called 
+  "beta release")
+    * Quality control!
+* Helps you think/brainstorm about the expected/desired behavior of your 
+  code before you write it.  (Helps you write the code.)
+* Tests help document, perhaps better than those evil postconditions
+  Sam sometimes makes us write.
+* Tests give you freedom to experiment (refactor).
+* Testing helps us understand other people's (bad) code 
+
 An example
 ----------
 
@@ -115,7 +132,7 @@ class TimeSetter
     @d = d
   end
 
-  def self.iso8601_ordinal
+  def iso8601_ordinal
     d = @d
     y = 1980
     while (d > 365) do
@@ -136,4 +153,45 @@ end
 
 What does this code do?
 
+* Converts from "days since 0 January 1980 format to year and day number
+  of that year."
+* Only works on dates on or after 1 January 1980.
+
+Why is it called `iso8601_ordinal`?
+
+* That's what the format is called.
+* ISO is International Standards Organization
+* 8601 is the ISO standard for date representation
+* Ordinal dates are dates that are repesented by year and day of year.
+
+Why does the code include the following test?
+
+```
+if ((y % 400 == 0) || (y % 4 == 0) && (y % 100 != 0))
+```
+
+* Tests if a year is a leap year.
+* Why not `if (y % 4 == 0)`?
+    * Strange leap year rule: Years that are divisible by 100 are not
+      leap years.  But years that are divisible by 400 are.
+    * Why? Because our Earth revolves around the sun at approxiately
+      365.24 revolutions per year.
+
 What tests would you write for it?  
+
+* `TimeSetter.new(1).iso8601_ordinal == "1980-1"`
+* `TimeSetter.new(10).iso8601_ordinal == "1980-10"`
+* `TimeSetter.new(366 + 5).iso8601_ordinal == "1981-5"`
+* `TimeSetter.new(365).iso8601_ordinal == "1980-365"`
+* `TimeSetter.new(366 + 1).iso8601_ordinal == "1981-1"`
+* `TimeSetter.new(366 + 365).iso8601_ordinal == "1981-365"`
+* `TimeSetter.new(366 + 365 + 1).iso8601_ordinal == "1982-1"`
+* `TimeSetter.new(366).iso8601_ordinal == "1980-366"`
+     * **Broken!**
+
+Other things to think about
+
+* Make sure that February 29, 2100 does not exist (but it doesn't deal
+  with months)
+* Should this support 0?  No.
+* Should this support negative number?  No.
