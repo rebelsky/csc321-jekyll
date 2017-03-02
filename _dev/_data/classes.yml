@@ -90,15 +90,24 @@
 
 - topic: UML
   abbrev: uml
+  read: Wikipedia on UML and SaaSbook 11.2
 
-- topic: To be determined
-  abbrev: tbd
+- topic: Design patterns
+  abbrev: design-patterns
+  read: SaaSbook 11
 
-- topic: Wrapup
-  abbrev: wrapup
+- topic: Design patterns, continued
+  abbrev: design-patterns-continued
 
 - topic: Project (1)
   abbrev: project-1
 
 - topic: Project (2)
   abbrev: project-2
+
+- topic: Project Demos
+  abbrev: project-demos
+
+- topic: Wrapup
+  abbrev: wrapup
+
