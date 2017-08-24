@@ -23,6 +23,7 @@ link: true
 * [Sign up for way too many accounts](../assignments/accounts), due Tuesday.
 * [Learn some Ruby](../assignments/getting-started-with-ruby), also due
   Tuesday.
+* [Read and report about Ruby](../readings/ruby1), also due Tuesday.
 
 ### Good things to do
 
