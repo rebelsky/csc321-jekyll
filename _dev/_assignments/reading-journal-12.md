@@ -1,8 +1,7 @@
 ---
 title: Reading journal for class 12
-link: true
+link: false
 due: 2017-02-17
-current: true
 ---
 Reading journal for class 12
 ============================

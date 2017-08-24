@@ -1,6 +1,6 @@
 ---
 title: Reading journal for class 3
-link: true
+link: false
 due: 2017-01-27
 ---
 Reading journal for class 3

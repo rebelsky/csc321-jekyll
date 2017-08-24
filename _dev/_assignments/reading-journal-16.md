@@ -1,8 +1,7 @@
 ---
 title: Reading journal for class 16
-link: true
+link: false
 due: 2017-02-27
-current: true
 ---
 Reading journal for class 16
 ============================

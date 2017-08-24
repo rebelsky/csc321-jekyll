@@ -1,6 +1,6 @@
 ---
 title: Hartl, Chapter 4
-link: true
+link: false
 due: 2017-02-10
 ---
 Hartl, Chapter 4

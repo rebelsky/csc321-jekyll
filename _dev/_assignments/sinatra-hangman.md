@@ -1,6 +1,6 @@
 ---
 title: Sinatra hangman
-link: true
+link: false
 due: 2017-02-24
 ---
 Sinatra Hangman

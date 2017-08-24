@@ -1,6 +1,6 @@
 ---
 title: Reading journal for class 4
-link: true
+link: false
 due: 2017-01-30
 ---
 Reading journal for class 4

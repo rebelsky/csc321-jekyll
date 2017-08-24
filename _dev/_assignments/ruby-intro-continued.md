@@ -1,6 +1,6 @@
 ---
 title: Ruby introduction, continued
-link: true
+link: false
 due: 2017-01-27
 ---
 Ruby introduction, continued

@@ -1,6 +1,6 @@
 ---
 title: Reading journal for class 10
-link: true
+link: false
 due: 2017-02-13
 ---
 Reading journal for class 10

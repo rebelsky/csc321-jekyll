@@ -1,6 +1,6 @@
 ---
 title: Reading journal for class 7
-link: true
+link: false
 due: 2017-02-06
 ---
 Reading journal for class 7

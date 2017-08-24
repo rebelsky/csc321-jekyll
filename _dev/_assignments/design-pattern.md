@@ -1,8 +1,7 @@
 ---
 title: Document a design pattern
-link: true
+link: false
 due: 2017-03-06
-current: true
 ---
 Document a design pattern
 =========================

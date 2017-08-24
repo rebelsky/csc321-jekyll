@@ -1,6 +1,6 @@
 ---
 title: Reading journal for class 11
-link: true
+link: false
 due: 2017-02-15
 ---
 Reading journal for class 11

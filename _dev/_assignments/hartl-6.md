@@ -1,8 +1,7 @@
 ---
 title: Hartl, Chapter 6
-link: true
+link: false
 due: 2017-02-15
-current: true
 ---
 Hartl, Chapter 6
 ================

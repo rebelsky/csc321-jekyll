@@ -1,6 +1,6 @@
 ---
 title: Reading journal for class 8
-link: true
+link: false
 due: 2017-02-08
 ---
 Reading journal for class 8

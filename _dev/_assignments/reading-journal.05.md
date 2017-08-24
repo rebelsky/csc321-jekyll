@@ -1,6 +1,6 @@
 ---
 title: Reading journal for class 5
-link: true
+link: false
 due: 2017-02-01
 ---
 Reading journal for class 5
