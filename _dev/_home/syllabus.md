@@ -6,7 +6,7 @@ Syllabus
 ========
 
 Welcome to {{ site.courseid }}! The official course description for this
-class is:
+course is:
 
 > Provides a foundation for "programming in the large" and developing
 high-quality software that meets human needs. Introduces the software
@@ -16,14 +16,14 @@ design principles. Includes hands-on laboratory work.
 In other words, we help you learn the basics of software design and
 engineering.
 
-Class Format
+Course Format
 ------------
 
-This course is being offered in a non-traditional format.  We will be
-relying on a MOOC and SPOC as part of the core "textbooks" for the course.
-We can then spend class time more on discussion and problem-solving based
-on the readings and videos from the MOOC/SPOC.  (Some people would call
-this a "flipped classroom.")
+This course is being offered in a non-traditional format.  We will
+be relying on a MOOC and some online materials as part of the core
+"textbooks" for the course.  We can then spend class time more on
+discussion and problem-solving based on the readings and videos from
+the MOOC.  (Some people would call this a "flipped classroom.")
 
 This is also a course in which you should be developing professional
 skills and habits.  Hence, some of the work in the class will require
@@ -32,18 +32,23 @@ this an opportunity to "learn how to learn".  When you are stuck, I
 recommend that you follow the strategy of [you must try, and then you must
 ask](https://blogs.akamai.com/2013/10/you-must-try-and-then-you-must-ask.html).
 
-The course meets three days per week for the first seven weeks of the semester.
-You are expected to do about twelve hours of work outside of class each 
-week (and you may timebox that work).
+Historical evidence suggests that what you get out of the course depends
+on what you put into it.
+
+The course meets two days per week for the first seven weeks of the
+semester.  Note that this semester marks the fourth or fifth different
+scheduling model we have tried for the course.  You are expected to do
+about twelve hours of work outside of class each week.  You may timebox
+that work.
 
 Learning Goals
 --------------
 
 By the end of this course,  you should be able to
 
-* apply agile software development methodology, tools, and practices 
+* apply agile software development methodology, tools, and practices
   in real-world team projects;
-* contrast agile software development methodology with plan-and-document 
+* contrast agile software development methodology with plan-and-document
   methodologies;
 * build SaaS applications with the Ruby on Rails framework; and
 * apply techniques for understanding and modifying legacy code.
@@ -63,7 +68,7 @@ this course keeps changing.
 familiar (e.g., edX, Jekyll).  When things look wrong on this site or
 the edX site, please notify me ASAP.
 
-*Warning!* Some students prefer readings.  Some prefer videos.  
+*Warning!* Some students prefer readings.  Some prefer videos.
 You should try both.
 
 Grading
@@ -72,7 +77,7 @@ Grading
 *These policies are likely to change.
 may change.*
 
-* __Class participation__: 20%.  Much of class time is in discussion.  
+* __Class participation__: 20%.  Much of class time is in discussion.
   I will evaluate you on the quality of your contributions.
 * __Journal__: 40%.  Following the lead of Dr. Davis and Prof. Weinman, I
   ask you to do a journal assignment after each reading, video, and/or
@@ -174,16 +179,11 @@ particularly since they are updating the textbook again this semester.
 or an appropriate app, you should be able to read the book on any
 electronic device.)
 
-Hartl, Michael (2016).  _Ruby on Rails Tutorial_ (4th Edition).  Addison-Wesley.
-
-> The book we'll be using to learn Rails.  Available online at <https://www.railstutorial.org/book>.
-
-Fox, Armando and Patterson, David (2016).  BerkeleyX: CS169.1x Agile Development Using Ruby on Rails - The Basics.  Available online at 
-<https://courses.edx.org/courses/course-v1%3ABerkeleyX%2BCS169.1x%2B3T2015SP/info>
+Fox, Armando and Patterson, David (2017).  BerkeleyX: CS169.1x Agile Development Using Ruby on Rails - The Basics.  Available online.
 
 > The underlying MOOC.  You can use this MOOC for videos that correspond
 to the various readings.  There are also many other resources available
-on the MOOC.  I've reorganized the material for our SPOC, which is available online at <https://edge.edx.org/courses/course-v1:Grinnell_College+CS321-1-S17+2017_Spring/>.
+on the MOOC.  
 
 Citations
 ---------
