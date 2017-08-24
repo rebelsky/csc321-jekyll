@@ -1,1 +1,0 @@
-../_dev/_eboards/eboard.10.md
