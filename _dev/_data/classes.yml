@@ -4,7 +4,10 @@
   subjects:
     - Guest lecture
     - What is software design?
+    - What is CSC 321?
     - What do we learn in this course?
+    - Why CSC 321?
+    - Course structure
 
 - topic: Getting started with Ruby
   abbrev: intro-ruby
