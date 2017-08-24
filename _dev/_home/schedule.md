@@ -3,6 +3,10 @@ title: Schedule
 section: home
 ---
 <h1>Schedule</h1>
+
+**Warning!  This schedule, like much of the course, is under development
+and may change significantly.**
+
 <table class="table table-condensed table-responsive text-center">
   <tbody style="vertical-align: middle">
     {% assign daynum = 0 %}
