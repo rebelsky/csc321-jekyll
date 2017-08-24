@@ -71,23 +71,23 @@ the edX site, please notify me ASAP.
 *Warning!* Some students prefer readings.  Some prefer videos.
 You should try both.
 
+*Warning!* We are trying a new structure for the course.  It feels a bit
+compressed to me, but I think we can fit everything in.
+
 Grading
 -------
 
-*These policies are likely to change.
-may change.*
+*These policies are likely to change.*
 
 * __Class participation__: 20%.  Much of class time is in discussion.
   I will evaluate you on the quality of your contributions.
-* __Journal__: 40%.  Following the lead of Dr. Davis and Prof. Weinman, I
+* __Journal__: 40%.  Following the lead of Davis and Weinman, I
   ask you to do a journal assignment after each reading, video, and/or
   tutorial.  Journals are generally due at 8:00 p.m. on the night before
   class to give me time to reflect on them before class.
-* __Homework__: 30%.  These are timeboxed.  If you spend the required
+* __Homework__: 40%.  These are timeboxed.  If you spend the required
   time and document your efforts, you will get a minimum of 90% on
   a homework assignment.  Homeworks will be due every few days.
-* __Project__: 10%.  Toward the end of the period, I will ask you
-  to develop a small project.
 
 The grading scale for this course will be:
 
@@ -108,13 +108,28 @@ You may note that there are some gaps between ranges.  I reserve the right to ma
 Attendance
 ----------
 
-Your classmates and partners depend on your contributions to learn new material and complete the required work for this course. *Don't let them down!* You are expected to arrive on time and actively participate in every class.
+Your classmates and partners depend on your contributions to learn new
+material and complete the required work for this course. *Don't let them
+down!* You are expected to arrive on time and actively participate in
+every class.
 
-Because your participation is so important, I will not grant excused absences except in exceptional circumstances. I will deduct 2% from your final grade for each absence and 1% for each time you are late to class. However, each student is allotted a 2% "penalty buffer," so you may miss one class or arrive late twice with no impact on your final grade. This policy is intended to give you the flexibility to deal with brief illnesses or personal issues that require you to miss class.
+Because your participation is so important, I will not grant excused
+absences except in exceptional circumstances. I will deduct 2% from
+your final grade for each absence and 1% for each time you are late to
+class. However, each student is allotted a 2% "penalty buffer," so you
+may miss one class or arrive late twice with no impact on your final
+grade. This policy is intended to give you the flexibility to deal with
+brief illnesses or personal issues that require you to miss class.
 
-If you need to miss more than one class period for an exceptional reason (e.g. to attend an academic conference, deal with a family emergency, or due to long-term illness) please talk to me as soon as possible and we will make an alternate arrangement.
+If you need to miss more than one class period for an exceptional reason
+(e.g. to attend an academic conference, deal with a family emergency,
+or due to long-term illness) please talk to me as soon as possible and
+we will make an alternate arrangement.
 
-If your are sick, *please do not come to class.* Stay in your room, rest, and seek medical care as needed. [Student Health and Counciling Services (SHACS)](http://www.grinnell.edu/about/offices-services/student-health) offers health and mental health services to students.
+If your are sick, *please do not come to class.* Stay in your room, rest,
+and seek medical care as needed. [Student Health and Counciling Services
+(SHACS)](http://www.grinnell.edu/about/offices-services/student-health)
+offers health and mental health services to students.
 
 Participation
 -------------
