@@ -1,3 +1,23 @@
+/**
+ * CSC151's theme.css
+ *   Override a variety of things in Bootstrap Cosmo for the CSC 151
+ *   Web sites.
+ *
+ *   Assumes we have defined the variables --primary-bg-color and
+ *   --highlight-color in a previously-loaded CSS file.   See below
+ *   for an example.
+ */
+
+/* Sample color settings */
+
+/*
+:root {
+  --text-color: #ffffff;
+  --primary-bg-color: #800000;
+  --default-color: #800000;
+  --highlight-color: #b00000;
+}
+ */
 
 .text-nowrap {
   white-space: nowrap;
@@ -13,10 +33,10 @@ nav.navbar {
 
 .navbar-brand {
     line-height: 12px;
-    color: white;
+    color: var(--text-color);
 }
 .navbar-brand link {
-    color: white;
+    color: var(--text-color);
 }
 
 /*
@@ -36,13 +56,14 @@ table.table thead tr th {
 }
 
 table.table tbody tr td {
-  vertical-align: middle;
+  vertical-align: top;
+  text-align: left;
 }
 
 table.table tbody tr.week-header {
-  background-color: #dddddd;
+  background-color: #0000df;
   font-weight: bold;
-  color: #ffffff;
+  color: var(--text-color);
 }
 
 table.table tbody tr.column-header {
@@ -54,28 +75,103 @@ div.footer {
   font-size: 80%;
 }
 
-nav.navbar-inverse, 
-nav.navbar-inverse
-.navbar-inverse .navbar-collapse,
-.navbar-inverse .navbar-form,
-.navbar-collapse.collapse,
-.navbar-collapse.collapsing {
-  background-color: #cc0000;
-  border-color: #a30000;
-}
-
-nav.navbar-inverse .navbar-nav .active a,
-nav.navbar-inverse .navbar-nav a:hover,
-nav.navbar-inverse .navbar-nav .active a:hover,
-.navbar-inverse .navbar-toggle:hover,
-.navbar-inverse .navbar-toggle:focus {
-  background-color: #a30000;
-}
-
 table ul.list-unstyled {
   margin-bottom: 0;
 }
 
 blockquote p {
   font-size: 15px;
+}
+
+blockquote {
+  color: #808080;
+  border: none;
+  padding-top: 0px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+/**
+ * Custom colors!
+ */
+nav.navbar-inverse, 
+nav.navbar-inverse .navbar-nav > li > a,
+nav.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form,
+.navbar-collapse.collapse,
+.navbar-collapse.collapsing {
+  background-color: var(--primary-bg-color);
+  border-color: var(--highlight-color);
+  color: var(--text-color);
+}
+
+nav.navbar-inverse .navbar-nav .active a,
+nav.navbar-inverse .navbar-nav a:hover,
+nav.navbar-inverse .navbar-nav .active a:hover,
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus,
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+  background-color: var(--highlight-color);
+}
+
+nav.navbar-inverse .navbar-nav .dropdown,
+nav.navbar-inverse .navbar-nav .dropdown a
+{
+}
+
+table.table tbody tr.week-header {
+  background-color: var(--primary-bg-color);
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+.dropdown-menu .divider {
+  /* margin: 0px; */
+  /* padding: 9.5px 0px; */
+  background-color: var(--primary-bg-color);
+}
+ 
+
+/*
+ * Collapsing navbar from
+ *   https://coderwall.com/p/wpjw4w/change-the-bootstrap-navbar-breakpoint
+ */
+@media (max-width: 900px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
 }

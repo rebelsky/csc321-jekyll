@@ -1,11 +1,13 @@
 # Site settings
 title: Software Design Principles and Practices
 courseid: CSC 321.01
-baseurl: /~rebelsky/Courses/CSC321/2017S
-url: http://www.cs.grinnell.edu/~rebelsky/Courses/CSC321/2017S
+baseurl: /~rebelsky/Courses/CSC321/2017F
+url: http://www.cs.grinnell.edu/~rebelsky/Courses/CSC321/2017F
 
 # Collections of things
 collections:
+  admin:
+    output: false
   assignments:
     output: true
     permalink: /assignments/:path.html
@@ -23,12 +25,18 @@ collections:
   handouts:
     output: true
     permalink: /handouts/:path.html
+  home:
+    output: true
+    permalink: /home/:path.html
   indices:
     output: true
     permalink: /indices/:path.html
   labs:
     output: true
     permalink: /labs/:path.html
+  links:
+    output: true
+    permalink: /links:path.html
   outlines:
     output: true
     permalink: /outlines/:path.html
@@ -46,6 +54,11 @@ collections:
     permalink: /reference/:path.html
   related:
     output: false
+  writeups:
+    output: true
+    permalink: /writeups/:path.html
+
+# Directories to skip
 
 # Default layouts
 defaults:
@@ -93,6 +106,7 @@ kramdown:
   syntax_highlighter: rouge
   syntax_highlighter_opts:
     css_class: 'highlight'
+    default_lang: drracket
     span:
       line_numbers: false
     block:

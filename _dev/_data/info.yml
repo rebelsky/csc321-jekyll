@@ -2,13 +2,12 @@ instructor: Samuel A. Rebelsky
 instructor_title: Professor Rebelsky
 instructor_homepage: http://www.cs.grinnell.edu/~rebelsky
 instructor_email: rebelsky@grinnell.edu
-meeting_times: MWF 1:00-1:50 (first half of semester)
+meeting_times: TuTh 8:00-9:50 (first half of semester)
 section_number: "01"
-office_hours: M 10:00-10:50, Tu 1:00-2:50, W 11:00-11:50, Th 1:00-2:50
+office_hours: TuTh 1:30-3:00 p.m.
 mentors:
-  - Adam Hudson
+  - Kathryn Yetter
 
 grader_email: "rebelsky@grinnell.edu"
 
-all_work_deadline: 5:00pm on Friday, May 19
-spoc: https://edge.edx.org/courses/course-v1:Grinnell_College+CS321-1-S17+2017_Spring/
+all_work_deadline: 5:00pm on Friday, 15 December 2017

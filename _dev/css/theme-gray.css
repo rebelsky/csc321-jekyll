@@ -1,0 +1,21 @@
+:root {
+  --text-color: #ffffff;
+  --primary-bg-color: #888888;
+  --default-color: #888888;
+  --highlight-color: #666666;
+}
+
+table.table tbody tr.week-header {
+  background-color: #666666;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+a {
+  color: #666666;
+}
+
+a:hover {
+  color: #888888;
+}
+

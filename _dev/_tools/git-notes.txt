@@ -1,0 +1,33 @@
+Notes on some easy-to-forget git tasks
+======================================
+
+Permanently removing parts of the repo (including history)
+----------------------------------------------------------
+
+0. Make sure that the repo is up to date.
+
+1. Make a new copy of the repo (just in case).
+
+2. Use the following command to remove the directory.
+
+    git filter-branch --tree-filter 'rm -rf DIR' -- --all
+
+3. Confirm that you did what you wanted.
+
+4. Push the changes
+
+    git push origin --force --all
+
+5. Replace repo with clone of new repo
+
+Tracking a remote branch
+------------------------
+
+0. Find out the name of the branch with
+
+    git branch -r
+
+1. Checkout with the tracking flag
+
+    git checkout -t REMOTE-BRANCH
+
