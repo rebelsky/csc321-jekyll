@@ -1,40 +1,36 @@
 - topic: An introduction to CSC 321
   abbrev: course-intro
   summary: We look at the "big picture" of the course.
+  subjects:
+    - Guest lecture
+    - What is software design?
+    - What do we learn in this course?
 
 - topic: Getting started with Ruby
   abbrev: intro-ruby
   summary: We start to investigate some issues in Ruby.
-  due: Codecademy Ruby tutorial
+  reading: 
+    - /readings/ruby1
+  subjects:
+    - A brief introduction to Ruby
+    - Some exercises
 
 - topic: Ruby, continued
   abbrev: ruby-continued
   read: SaaSbook 3.1-3.4.
   summary: We continue to investigate some issues in Ruby.
   subjects:
-    - A brief introduction to Ruby
-    - Some exercises
     - Interesting characteristics of Ruby
     - Q&A
 
-- topic: Deploying Rails applications
-  abbrev: deploy
-  read: Hartl 1
+- topic: Getting started with Rails
+  abbrev: rails-1
   subjects:
-    - A brief introduction to regular expressions
-    - Wrap up Hartl 1
-    - Start Hartl 2
+    - An introduction to Rails
+    - Guest lecture: Design
 
-- topic: Your first Rails application
-  abbrev: toy-app
-  read: Hartl 2
-
-- topic: A static site
-  abbrev: static-site
-  subjects:
-    - Assorted questions
-    - Yielding
-  read: Hartl 3
+- topic: More fun with Rails
+  abbrev: rails-2
 
 - topic: An introduction to software engineering
   abbrev: intro-softeng
@@ -47,34 +43,17 @@
     - Why not agile?
   read: SaaSbook Chapter 1 and sections 10.1-10.2
 
-- topic: User stories
-  abbrev: user-stories
+- topic: "Key ideas - Software as a service and user stories"
+  abbrev: key-ideas
   read: SaaSbook 7.1-7.5
   subjects:
     - Agility, revisited
 
-- topic: Pause for breath
-  abbrev: pause-01
-  read: Hartl 4
-
-- topic: Extending your Rails application (1)
-  abbrev: extending-rails-1
-  read: Hartl 5
-  subjects:
-    - Accessibility
-    - Important Web technologies and their roles
-    - Lab time
-
 - topic: Modeling basics
   abbrev: modeling-basics
-  read: Hartl 6
 
 - topic: Modeling, continued
   abbrev: modeling-continued
-
-- topic: Software as a service
-  abbrev: saas
-  read: SaaSbook, 2&4
 
 - topic: Behavior-driven design (BDD)
   abbrev: bdd
@@ -84,29 +63,16 @@
   abbrev: tdd
   read: SaaSbook 8
 
-- topic: Legacy code
+- topic: Legacy code and UML
   abbrev: legacy
-  read: SaaSbook 9, 10.4-10.9
-
-- topic: UML
-  abbrev: uml
-  read: Wikipedia on UML and SaaSbook 11.2
+  read: SaaSbook 9, 10.4-10.9; Wikipedia on UML; SaaSbook 11.2
 
 - topic: Design patterns
   abbrev: design-patterns
   read: SaaSbook 11
 
-- topic: Design patterns, continued
-  abbrev: design-patterns-continued
-
-- topic: Project (1)
-  abbrev: project-1
-
-- topic: Project (2)
-  abbrev: project-2
-
-- topic: Project Demos
-  abbrev: project-demos
+- topic: Software design experiences
+  abbrev: alums
 
 - topic: Wrapup
   abbrev: wrapup
