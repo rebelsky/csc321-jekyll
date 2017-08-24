@@ -38,8 +38,8 @@ section: home
                   <em>{{ class.summary | markdownify | remove: '<p>' | remove: '</p>' }}</em>
             </td>
             <td>
-              <ul>
-                {% if class.reading %}
+              {% if class.reading %}
+                <ul>
                   {% for item in class.reading %}
                     {% assign itemlong = item | append: ".html" | replace: ".html.html", ".html" %}
                     {% assign reading = site.documents | where: "url", itemlong | first %}
@@ -49,14 +49,14 @@ section: home
                       <li>{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</li>
                     {% endif %}
                   {% endfor %}
-                {% else %}
-                  <li><i>No reading</i></li>
-                {% endif %}
-              </ul>
+                </ul>
+              {% else %}
+                <i>No reading</i>
+              {% endif %}
             </td>
             <td>
-              <ul>
-                {% if class.lab %}
+              {% if class.lab %}
+                <ul>
                   {% for item in class.lab %}
                     {% assign itemlong = item | append: ".html" | replace: ".html.html", ".html" %}
                     {% assign lab = site.documents | where: "url", itemlong | first %}
@@ -66,10 +66,10 @@ section: home
                       <li>{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</li>
                     {% endif %}
                   {% endfor %}
-                {% else %}
-                  <li><i>No lab</i></li>
-                {% endif %}
-              </ul>
+                </ul>
+              {% else %}
+               <i>No lab</i>
+              {% endif %}
             </td>
             <td class="text-nowrap">
               {% assign work_due = site.documents | where: "due", day %}
