@@ -1,6 +1,6 @@
 ---
 title: Syllabus
-permalink: /syllabus/
+section: home
 ---
 Syllabus
 ========

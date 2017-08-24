@@ -1,6 +1,6 @@
 ---
 title: Schedule
-permalink: /schedule/
+section: home
 ---
 <h1>Schedule</h1>
 <table class="table table-condensed table-responsive text-center">
@@ -9,49 +9,45 @@ permalink: /schedule/
     {% for week_data in site.data.dates %}
       {% if week_data.days %}
         <tr class="week-header">
-          <td colspan="6">{{ week_data.week }}</td>
+          <td colspan="8">{{ week_data.week }}</td>
         </tr>
         <tr class="column-header">
+          <td class="hidden-xs">#</td>
           <td class="hidden-xs">Day</td>
           <td>Date</td>
-          <td>Topic</td>
-          <td>Reading</td>
+          <td colspan="2">Topic</td>
+          <td>Reading(s)</td>
           <td>Lab</td>
           <td>Work Due</td>
         </tr>
         {% for day in week_data.days %}
           {% assign class = site.data.classes[daynum] %}
+          {% assign classnum = daynum | plus: '1' %}
+          {% assign twodig = classnum %}
+          {% if twodig < 10 %}{% assign twodig = twodig | prepend: 0 %}{% endif %}
           <tr>
+            <td class="hidden-xs">{{ classnum }}</td>
             <td class="hidden-xs">{{ day | date: "%A" | remove: "onday" | remove: "uesday" | remove: "ednesday" | remove: "ursday" | remove: "riday" }}</td>
             <td>{{ day | date: "%-m/%-d" }}</td>
-            <td>
-              <ul class="list-unstyled">
-                {% assign twodig = daynum | plus: '1' %}
-                {% if twodig < 10 %}{% assign twodig = twodig | prepend: 0 %}{% endif %}
-                <a href="{{ site.baseurl }}/outlines/outline.{{ twodig }}.html">
-                {% for topic in class.topic %}
-                  <li>
-                    {{ topic | markdownify | remove: '<p>' | remove: '</p>' }}
-                  </li>
-                {% endfor %}
-                </a>
+            <td halign="left" colspan="2">
+                    <a href="{{ site.baseurl }}/outlines/outline.{{ twodig }}.html">
+                    <strong>{{ class.topic | markdownify | remove: '<p>' | remove: '</p>' }}</strong>
+                    </a>
                 {% if class.notes %}<li><a href="{{ class.notes }}">(notes)</a></li>{% endif %}
-              </ul>
+                <br>
+                  <em>{{ class.summary | markdownify | remove: '<p>' | remove: '</p>' }}</em>
             </td>
             <td>
-              <ul class="list-unstyled">
+              <ul>
                 {% if class.reading %}
                   {% for item in class.reading %}
-                    {% assign reading = site.documents | where: "url", item | first %}
+                    {% assign itemlong = item | append: ".html" | replace: ".html.html", ".html" %}
+                    {% assign reading = site.documents | where: "url", itemlong | first %}
                     {% if reading %}
                       <li>{% include schedule_item.html item=reading show-due-time=false %}</li>
                     {% else %}
                       <li>{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</li>
                     {% endif %}
-                  {% endfor %}
-                {% elsif class.read %}
-                  {% for item in class.read %}
-                    <li>{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</li>
                   {% endfor %}
                 {% else %}
                   <li><i>No reading</i></li>
@@ -59,10 +55,11 @@ permalink: /schedule/
               </ul>
             </td>
             <td>
-              <ul class="list-unstyled">
+              <ul>
                 {% if class.lab %}
                   {% for item in class.lab %}
-                    {% assign lab = site.documents | where: "url", item | first %}
+                    {% assign itemlong = item | append: ".html" | replace: ".html.html", ".html" %}
+                    {% assign lab = site.documents | where: "url", itemlong | first %}
                     {% if lab %}
                       <li>{% include schedule_item.html item=lab show-due-time=false %}</li>
                     {% else %}
@@ -82,8 +79,11 @@ permalink: /schedule/
           {% assign daynum = daynum | plus: 1 %}
         {% endfor %}
       {% else %}
-        <tr class="active">
-          <td colspan="6">{{ week_data.week }}</td>
+        <tr class="week-header">
+          <td colspan="8">{{ week_data.week }}</td>
+        </tr>
+        <tr>
+          <td colspan="8"></td>
         </tr>
       {% endif %}
     {% endfor %}

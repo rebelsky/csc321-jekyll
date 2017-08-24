@@ -31,3 +31,9 @@ Tracking a remote branch
 
     git checkout -t REMOTE-BRANCH
 
+Pulling from the generic course
+-------------------------------
+
+git remote add csc000 git@github.com:rebelsky/generic-course-jekyll.git
+git pull csc000 master
+
