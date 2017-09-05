@@ -9,9 +9,10 @@ current: true
 
 Read Chapter 4 of _Engineering Software as a Service_ (aka "The SaaSbok").
 
-Answer the following questions.
+Answer the following question.
 
-(_The questions are forthcoming.  Sorry._)
+*Which two things in Chapter 4 would you most like me to go over.  Explain
+the topics and your questions as best you can.*
 
 For the journal send an email message to me titled "**CSC 321 2017F,
 Journal for Class 4 (*Name*)**" (without the quotation marks) and with
