@@ -1,13 +1,12 @@
 ---
-title: Getting started with Rails
+title: "Reading: Getting started with Rails"
 link: true
 due: 2017-09-05
 due-time: 8:00 p.m.
-current: true
 ---
 # {{ page.title }}
 
-Read Chapter 4 of _Engineering Software as a Service_ (aka "The SaaSbok").
+Read Chapter 4 of _Engineering Software as a Service_ (aka "The SaaSbook").
 
 Answer the following question.
 
