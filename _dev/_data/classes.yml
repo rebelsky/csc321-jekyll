@@ -17,7 +17,6 @@
   subjects:
     - A brief introduction to Ruby
     - Some exercises
-    - Additional characteristics of Ruby
 
 - topic: Ruby, continued
   abbrev: ruby-continued
@@ -25,34 +24,70 @@
     - /readings/ruby2
   summary: We continue to investigate some issues in Ruby.
   subjects:
+    - Reflections on exercises
+    - Duck typing
+    - Additional characteristics of Ruby
+    - Meta discussion
     - Object-oriented programming in Ruby
     - Q&A
 
 - topic: Getting started with Rails
   abbrev: rails-1
+  summary: We start thinking about Rails and its infrastructure.
   subjects:
+    - Model/View/Controller
     - An introduction to Rails
     - Guest lecture: Design
+  reading:
+    - /readings/saasbook4
 
 - topic: More fun with Rails
   abbrev: rails-2
+  summary: We experiment with some real Rails installations.
+  subjects:
+    - Installing Rails.
+    - More MVC.
+  reading:
+    - /readings/saasbook2
 
 - topic: An introduction to software engineering
   abbrev: intro-softeng
+  summary: We consider three models of software engineering and delve more deeply into agile practices
   subjects:
-    - Model/View/Controller frameworks
-    - RESTful programming
     - Models of software engineering
     - Important agile practices
     - Why agile?
     - Why not agile?
-  read: SaaSbook Chapter 1 and sections 10.1-10.2
+  reading: 
+    - /readings/saasbook1
 
 - topic: "Key ideas - Software as a service and user stories"
   abbrev: key-ideas
-  read: SaaSbook 7.1-7.5
+  summary: "We consider two key ideas in software design (or at least this class's model of software design): a model of software in the cloud and a mechanism for understanding user requirements."
+  read: SaaSbook 7.1-7.5; Stallman on SaaS
+  reading: 
+    - /readings/user-stories
   subjects:
-    - Agility, revisited
+    - Project work time
+    - SaaS
+    - User stories
+    - Using user stories
+
+- topic: Behavior-driven design (BDD) and Test-driven Devleopment
+  abbrev: bdd
+  read: SaaSbook 7, 8
+  reading: 
+    - /readings/bdd-tdd
+  subjects:
+    - Behavior-driven design (BDD)
+    - Cucumber basics
+    - Test-driven development
+    - Why test?
+    - An example
+
+- topic: Work Time
+  abbrev: work-time
+  read: 
 
 - topic: Modeling basics
   abbrev: modeling-basics
@@ -60,15 +95,7 @@
 - topic: Modeling, continued
   abbrev: modeling-continued
 
-- topic: Behavior-driven design (BDD)
-  abbrev: bdd
-  read: SaaSbook 7
-
-- topic: Test-driven development (TDD)
-  abbrev: tdd
-  read: SaaSbook 8
-
-- topic: Legacy code and UML
+- topic: Legacy code and the UML
   abbrev: legacy
   read: SaaSbook 9, 10.4-10.9; Wikipedia on UML; SaaSbook 11.2
 

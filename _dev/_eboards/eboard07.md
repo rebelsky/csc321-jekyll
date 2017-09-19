@@ -3,7 +3,6 @@ title: Eboard 07  Key ideas - Software as a service and user stories
 number: 07
 section: eboards
 held: 2017-09-14
-current: true
 ---
 CSC 321.01, Class 07:  Key ideas - Software as a service and user stories
 =========================================================================
@@ -53,10 +52,31 @@ _Note: I do not do extra credit in two-credit classes._
 #### Peer
 
 * CS Extras today
-* Elephantitis this weekend
+* Elephantitis this weekend (Saturday morning at HS and afternoon at MS)
+  (Sunday at HS)
 
 Project work time
 -----------------
+
+I couldn't get it to deploy to Heroku.  I skipped that step.
+  : Knowing how to deploy is important.  Ask for help.
+
+Wow, minor things cause big problems!
+  : Yup, we've talked about that before.
+  : Context is important.  Execute commands in the correct directory.
+  : Executing (or failing to execute) prior commands, a current command
+    may/may not work.
+
+I have no idea why I'm getting an error?
+  : If you see a "nil, no such method" error, it means that you haven't
+    assigned a value to a variable that you are using.
+  : Think more carefully about program logic.
+
+What are the big-picture issues you saw?
+  : It's hard to program when you don't have immediate help available.
+    But that's something you have to learn.
+  : You need to ask questions of others.
+  : The steps are important.
 
 SaaS
 ----
@@ -71,12 +91,38 @@ most people have to deal with compromises._
 User stories
 ------------
 
-_What are they?  How do we represent them?  Why do we have them?_
+_What are they?_
 
-Using user stories
-------------------
+* A way of describing the goals of our project, primarily from the user's
+  perspective.
 
-_How do we use user stories?_
+How do we represent them?  
+
+* Feature: A general name for what we are trying to achieve
+* Actor (As _this-kind-of-user_)
+* Goal (So that I can _something I want to achieve_)
+* Action (I want to be able to _do this_)
+* Examples - Help make sure that we all understand the Actor/Goal/Action
+  triplet.
+
+Sample example
+
+* Suppose our database includes the following entries
+
+        Rebelsky        Fall 2017       CSC 321 01      2
+        Rebelsky        Fall 2017       CSC 322 01      2
+        Rebelsky        Fall 2017       CSC 301 01      4
+        ...
+
+* When I go to the "total teaching load" page, select "Rebelsky", and
+  click "Compute", I should see ...
+
+Why do we have them?
+
+* Communicate with the user
+* Stories provide an opening point for discussions.  "If this is your
+  goal, couldn't we also achieve it this way?"  "Why are you doing this?"
+* Lets us prioritize
 
 Making user stories SMART
 -------------------------
@@ -103,36 +149,60 @@ Your stories
 
 ### Stories to discuss
 
-Unknown project: 
+#### Unknown project: 
 
 * Display a page to the user with a title
 
+Problems
 
-Project PALS: Add a posting system for car pool services for those without personal transportation to get to PALS
+* Not specific
+* Not necessarly applicable
+* Not a known user base.
+
+#### Project PALS: Add a posting system for car pool services for those without personal transportation to get to PALS
 
 * As a volunteer,
 * So that I can volunteer at PALS without worrying about how to get to the animal shelter,
 * I want to add a posting system so that any volunteer with a car can volunteer to pick people up or drop them off. 
 
-Callisto: Untitled
+Fixes
+
+* Needs to better express what actions you'd like to do.
+* "I want to be able to indicate that I need a ride and be notified at
+  least one day in advance if that ride is available."
+* Might also add: "I want my shift cancelled and me to be notified at
+  least one day in advance if that ride is not available"
+
+#### Callisto: Untitled
 
 * As a survivor, 
 * I want to have different methods of reporting my case. It should be either a voice recording, call for Grinnell Advocates or other national hotlines, text typed on a computer, or a picture of documents written on paper 
 * So that I can report with the least trouble
 
-Callisto: Proving confidentiality of sexual assault report
+Problem
+
+* Too complex.  Needs simplification (multiple cases).
+* Also needs story of "I can retrieve it later."
+
+#### Callisto: Proving confidentiality of sexual assault report
 
 * As a sexual assault survivor
 * So that I can feel comfortable reporting the assault
 * I want to be able to know that my report will be confidential until I choose to release it
 
-Callisto: Untitled
+Problem
+
+* Needs measuring.
+
+#### Callisto: Untitled
 
 * As a school official, 
 * I want to see the analytics of sexual assaults reported on campus (where, when, how) without seeing the victims or perpetrator's name, 
 * so that I can adjust campus policy accordingly to minimize these incidents
 
-Mayflower Project: Untitled
+NO NO NO NO NO
+
+#### Mayflower Project: Untitled
 
 I am a member of the Mayflower community who has been staying with my son
 for 4 months as I prepared for his wedding. I am getting ready to head
@@ -141,39 +211,44 @@ when I get back. I would also like to look up if they had similar past
 experiences with me so that I can have something to talk about in our
 initial interactions.
 
-Heartland Project: News Column
+Problems
+
+* Not in the proper form.
+* Multiple goals and actions
+
+#### Heartland Project: News Column
 
 * As a person who is concerned about global health problems,
 * So that I can obtain news from the website,
 * I want to know about the status quo of global health.
 
-Four year planner: Change a class’s location
+#### Four year planner: Change a class’s location
 
 * As an administrator
 * So I can change a room if a class is too big
 * I want to be able to change the location of a class
 
-Heartland Project: Untitled
+#### Heartland Project: Untitled
 
 * As a concerned citizen of this country, 
 * I want to be able to get access to to all documents to water quality 
   in one place 
 * So that I know how my environment affects my health.
 
-Mayflower Project: Password/information protection
+#### Mayflower Project: Password/information protection
 
 * As a Mayflower resident, 
 * so that I can keep my information private and viewable only to people I 
   permit, 
 * I want to be able to hide/share my information as I please.
 
+### Other stories
+
 Callisto: Untitled
 
 * As the Title IX coordinator
 * So that I can bring justice to survivors and protect the community from future offenses
 * I want to be notified within 10 minutes when the same assailant is reported more than once
-
-### Other stories
 
 Mayflower project: Search for resident
 
