@@ -73,8 +73,9 @@
     - User stories
     - Using user stories
 
-- topic: Behavior-driven design (BDD) and Test-driven Devleopment
+- topic: Behavior-driven design (BDD) and Test-driven Development
   abbrev: bdd
+  summary: We consider two key ideas in software development and testing, one of which emphasizes high-level functionality and one of which emphasizes procedure-level functionality.
   read: SaaSbook 7, 8
   reading: 
     - /readings/bdd-tdd
@@ -91,9 +92,17 @@
 
 - topic: Modeling basics
   abbrev: modeling-basics
+  summary: We begin to consider issues of modeling data in general.
+  subjects:
+    - Modeling data
+    - Strategies for "doing" modeling
+    - An exercise in basic modeling
+    - Exploring relationships between data
+    - Extending our sample model
 
 - topic: Modeling, continued
   abbrev: modeling-continued
+  summary: We continue to consider issues of modeling data, in both Rails and in SQL.
 
 - topic: Legacy code and the UML
   abbrev: legacy
