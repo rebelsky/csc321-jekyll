@@ -1,8 +1,7 @@
 ---
 title: Modeling
 link: true
-due: 2017-10-02
-current: true
+due: 2017-09-28
 ---
 # Reading: {{ page.title }}
 

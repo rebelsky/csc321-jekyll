@@ -2,7 +2,6 @@
 title: "User stories + Software as a Servcie"
 link: true
 due: 2017-09-14
-current: true
 ---
 # Reading: {{page.title}}
 

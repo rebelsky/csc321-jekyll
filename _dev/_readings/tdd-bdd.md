@@ -2,7 +2,6 @@
 title: "Behavior-driven design and Test-driven development"
 link: true
 due: 2017-09-19
-current: true
 ---
 # Reading: {{page.title}}
 
