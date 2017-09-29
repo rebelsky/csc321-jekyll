@@ -1,9 +1,8 @@
 ---
 title: Eboard 08  Behavior-driven design (BDD) and Test-driven Devlopment
-number: 08
+number: 8
 section: eboards
 held: 2017-09-19
-current: true
 ---
 CSC 321.01, Class 08:  Behavior-driven design (BDD) and Test-driven Devlopment
 ===============================================================================

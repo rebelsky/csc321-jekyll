@@ -103,10 +103,14 @@
 - topic: Modeling, continued
   abbrev: modeling-continued
   summary: We continue to consider issues of modeling data, in both Rails and in SQL.
+    - SQL basics
+    - Lab
 
 - topic: Legacy code and the UML
   abbrev: legacy
   read: SaaSbook 9, 10.4-10.9; Wikipedia on UML; SaaSbook 11.2
+  readings:
+    - /readings/legacy.html
 
 - topic: Design patterns
   abbrev: design-patterns
