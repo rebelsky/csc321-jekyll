@@ -14,7 +14,8 @@ link: true
 ### Upcoming Work
 
 * [Reading journal for class 12](../readings/legacy) due Monday night.
-* Next assignment to be distributed tonight.
+* [The last programming project](../assignments/last-project) to be
+  posted tonight, due a week from Tuesday.
 
 ### Good things to do
 
