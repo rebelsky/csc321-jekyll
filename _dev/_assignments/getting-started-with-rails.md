@@ -3,7 +3,6 @@ title: "HW 2: Getting started with Rails"
 link: true
 due: 2017-09-12
 due-time: 10:30 p.m.
-current: true
 ---
 # {{ page.title }}
 

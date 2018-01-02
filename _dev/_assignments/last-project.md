@@ -3,6 +3,7 @@ title: "HW 4: Your last project"
 link: true
 due: 2017-10-12
 due-time: 5:00 p.m.
+current: true
 ---
 # {{ page.title }}
 
