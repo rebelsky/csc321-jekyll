@@ -38,7 +38,7 @@ on what you put into it.
 The course meets two days per week for the first seven weeks of the
 semester.  Note that this semester marks the fourth or fifth different
 scheduling model we have tried for the course.  You are expected to do
-about twelve hours of work outside of class each week.  You may timebox
+about nine hours of work outside of class each week.  You may timebox
 that work.
 
 Learning Goals
@@ -137,25 +137,31 @@ Participation
 Because much of our work in this course involves collaboration and discussion, you will be evaluated on your participation.
 Participating in class involves:
 
- - being present in class (physically and mentally)
- - coming to class on time
- - coming to class prepared
- - asking questions when appropriate
- - making positive contributions to class discussion by volunteering and when called upon
- - staying on task during lab exercises, and
- - working effectively with your partner(s)
+* being present in class (physically and mentally)
+* coming to class on time
+* coming to class prepared
+* asking questions when appropriate
+* making positive contributions to class discussion by volunteering and when called upon
+* staying on task during lab exercises, and
+* working effectively with your partner(s)
 
-Students who regularly meet these criteria can expect to earn an A- for their participation grade. I will reward students who regularly provide significant insights or guide discussion in productive ways with a higher participation score. Students who fail to participate regularly (e.g., demonstrating a lack of preparation or involvement during lab exercises) or who participate in counterproductive ways (e.g., by dominating the conversation, making inappropriate comments, or getting off-task) can expect to earn a lower score.
+Students who regularly meet these criteria can expect to earn an A- for
+their participation grade. I will reward students who regularly provide
+significant insights or guide discussion in productive ways with a higher
+participation score. Students who fail to participate regularly (e.g.,
+demonstrating a lack of preparation or involvement during lab exercises)
+or who participate in counterproductive ways (e.g., by dominating the
+conversation, making inappropriate comments, or getting off-task) can
+expect to earn a lower score.
 
 Workload
 --------
 
 Here's what I expect you'll be spending your time on each week
 
-* Class time (3 hours)
-* Readings/videos (4 hours)
-* Journaling (2 hours)
-* Programming and writing assignments (4 hours)
+* Class time (4 hours)
+* Readings/videos/journaling (4 hours)
+* Programming and writing assignments (5 hours)
 
 The first week may be a bit busier as you get set up.
 
