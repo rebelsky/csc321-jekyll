@@ -22,6 +22,9 @@
 # Ignore everything in the sandbox
 sandbox/*
 
+# Ignore copies of eboards
+eboards/*.md
+
 # Almost everything in the admin directory should be ignored
 admin/*
 !admin/report
