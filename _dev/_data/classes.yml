@@ -103,22 +103,47 @@
 - topic: Modeling, continued
   abbrev: modeling-continued
   summary: We continue to consider issues of modeling data, in both Rails and in SQL.
+  subjects:
     - SQL basics
     - Lab
 
 - topic: Legacy code and the UML
   abbrev: legacy
+  summary: We consider a variety of issues related to better design.
+  subjects:
+    - Legacy code
+    - Code smells
+    - The UML
   read: SaaSbook 9, 10.4-10.9; Wikipedia on UML; SaaSbook 11.2
   readings:
     - /readings/legacy.html
 
 - topic: Design patterns
   abbrev: design-patterns
+  summary: We consider some basic issues pertaining to design patterns
   read: SaaSbook 11
+  readings:
+    - /readings/design-patterns.html
+  subjects:
+    - Why design patterns?
+    - Reading reactions
+    - Example Pattern: Iterator
+    - Example Pattern: Adaptor
+    - Pattern: Flyweight
+    - Pattern: Factory
+    - Pattern: Dependency injection
+    - Pattern: Observer
+    - Pattern: Strategy
+    - Pattern: Prototype
 
 - topic: Software design experiences
   abbrev: alums
 
 - topic: Wrapup
   abbrev: wrapup
+    - The subject matter of the class
+    - Apologies
+    - Course evaluations
+    - Debrief
+    - Work time
 
