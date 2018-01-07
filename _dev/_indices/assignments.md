@@ -10,6 +10,7 @@ assignment.  However, reading journals should be submitted individually.
 <dl>
   {% assign assignments = site.assignments | sort: 'due' %}
   {% for assignment in assignments %}
+<<<<<<< HEAD
     {% if assignment.link %}
       {% if assignment.due %}
         <dt>{% include schedule_item.html item=assignment show-due-time=false %}</dt>
@@ -19,7 +20,7 @@ assignment.  However, reading journals should be submitted individually.
               <li>Assigned {{ assignment.assigned | date: '%B %-d, %Y' }}</li>
             {% endif %}
             {% if assignment.due %}
-              <li>Due {{ assignment.due | date: '%B %-d, %Y' }}{% if assignment.due-time %} <i>(before {{ assignment.due-time }})</i>{% endif %}</li>
+              <li>Due {{ assignment.due | date: '%B %-d, %Y' }}{% if assignment.due-time %} <i>(before {{ assignment.due-time | split: ' ' | first }})</i>{% endif %}</li>
             {% endif %}
           </ul>
         </dd>
