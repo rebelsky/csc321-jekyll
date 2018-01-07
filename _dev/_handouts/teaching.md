@@ -204,7 +204,7 @@ Reading
 -------
 
 My colleague Janet Davis suggests that you use the
-[SQ3R](http://en.wikipedia.org/wiki/SQ3R) method when reading.  I've
+[SQ3R](https://en.wikipedia.org/wiki/SQ3R) method when reading.  I've
 paraphrased her description of the SQ3R steps, as I believe she
 paraphrased the information from elsewhere.
 

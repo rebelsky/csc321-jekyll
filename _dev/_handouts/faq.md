@@ -148,8 +148,8 @@ Is that really the case?_
 
 > Yes.  Since the start of Fall 2016, I have written an essay on some
 topic each day.  You can find them all at
-<http://www.cs.grinnell.edu/~rebelsky/musings>.  If you want to "subscribe",
-follow me on Twitter.
+<https://www.cs.grinnell.edu/~rebelsky/musings>.  If you want to "subscribe",
+follow me on Twitter or use [the RSS feed](https://www.cs.grinnell.edu/~rebelsky/musings/rss).
 
 About the course web
 --------------------

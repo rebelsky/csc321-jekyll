@@ -214,5 +214,5 @@ due to Janet Davis.  I have reused materials with her permission.
 
 ## Academic Honesty
 
-Please read [my policies on academic honesty]({{ site.baseurl }}/handouts/academic-honesty) and [the CS department's academic honesty policy](http://www.cs.grinnell.edu/academic-honesty-policy).  I expect you to sign and return the latter.
+Please read [my policies on academic honesty]({{ site.baseurl }}/handouts/academic-honesty) and [the CS department's academic honesty policy](https://www.cs.grinnell.edu/academic-honesty-policy).  I expect you to sign and return the latter.
 

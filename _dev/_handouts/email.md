@@ -60,12 +60,12 @@ Most of us, myself included, don't think much about email, other
 than that it's a convenient way to communicate.  But a few recent 
 events suggest that we should be a bit more thoughtful.  Hence,
 I encourage you to consider using mail encryption software,
-particularly the <ulink url="http://www.gnupg.org/">GNU Privacy 
+particularly the <ulink url="https://www.gnupg.org/">GNU Privacy 
 Guard (GPG)</ulink> and the more general Pretty Good Privacy (PGP)
 protocol.
 
 Since I use GPG, I've written <ulink
-url="http://www.cs.grinnell.edu/~rebelsky/gpg.html">a really brief
+url="https://www.cs.grinnell.edu/~rebelsky/gpg.html">a really brief
 introduction</ulink>.  There are a host of more useful and more
 comprehensive introductions to and tutorials about GPG, so I'm not
 going to write much here, other than to recommend that you learn
@@ -82,16 +82,14 @@ for others, too).
 * On the Mac, I use [GPGMail 2](https://gpgtools.org/).
   I find it simple and straightforward.
 * I don't use Microsoft Windows, but I hear that 
-  [gpg4win](http://www.gpg4win.org/)
+  [gpg4win](https://www.gpg4win.org/)
   works pretty well.
 * On the Linux workstations in the MathLAN, GPG is installed as
   a command line tool.
 
-If you send me your public key (or a link to your public key) and
-ask me to encrypt email to you, I will do my best to remember
-(although I may not always succeed).   You can find my public key
-at <ulink
-url="http://www.cs.grinnell.edu/~rebelsky/rebelsky.gpg">http://www.cs.grinnell.edu/~rebelsky/rebelsky.gpg</ulink>
-or at the MIT key server, <ulink
-url="http://pgp.mit.edu/">http://pgp.mit.edu/</ulink>.
+If you send me your public key (or a link to your public key)
+and ask me to encrypt email to you, I will do my best to remember
+(although I may not always succeed).   You can find my public key at
+<https://www.cs.grinnell.edu/~rebelsky/rebelsky.gpg> or at the MIT server,
+<https://pgp.mit.edu/>.
 

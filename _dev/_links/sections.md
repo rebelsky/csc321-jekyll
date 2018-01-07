@@ -1,9 +1,9 @@
 ---
-title: Sections
+title: Resources
 section: links
 ---
-Sections
-========
+Resources
+=========
 
 <ul>
 {% include links-sections.html %}

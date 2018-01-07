@@ -17,7 +17,7 @@ me develop other appropriate accommodations and adjustments.
 
 If you have not already done so, you should also discuss your
 disability with [academic
-advising](http://www.grinnell.edu/about/offices-services/academic-advising/disability-services).
+advising](https://www.grinnell.edu/about/offices-services/academic-advising/disability-services).
 If you think you may have an undocumented learning disability,
 please speak to me and to academic advising.  However, *I will work
 with you whether or not you have documented the disability*.  (I

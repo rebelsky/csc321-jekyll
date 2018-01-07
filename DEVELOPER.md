@@ -1,7 +1,7 @@
 Developer Notes
 ===============
 
-*Warning!  I am changing the development system.  Most of this document
+*Warning!  I am changing the development system.  Much of this document
 is now out of date.*
 
 This repository and its forks are designed as places for me to hold
@@ -63,27 +63,27 @@ tried at the end.
 At the beginning of the semester
 --------------------------------
 
-### In The Generic Repository ###
+### In the generic repository ###
 
-1. Add the dates files (whatever form that takes)
+1. Add/update the dates file, `_dev/_data/dates.yml`
 
 2. Do a quick scan to see if anything else needs adjusting
 
-### For An Individual Course ###
+### For an individual course ###
 
-1. If you're starting a new course, follow the *Starting a New Course*
+1. If you're starting a new course, follow the *Starting a new course*
    instructions below.  (I usually do this in a sandbox.)
 
 2. Clone the course repository into the directory you plan to use for the 
    course.  E.g.,
 
         cd /home/rebelsky/Web/Courses/CSC000/
-        git clone git@github.com:rebelsky/csc000.git 2017S
-        cd 2017S
+        git clone git@github.com:rebelsky/csc000.git 2018S
+        cd 2018S
 
    If for some reason you want http as opposed to ssh, use
 
-        git clone https://github.com/rebelsky/csc000 2017S
+        git clone https://github.com/rebelsky/csc000 2018S
 
 3. Pull any changes from the generic repository
 
@@ -109,7 +109,7 @@ At the beginning of the semester
 
 11. Try it.
 
-At the End of the Semester
+At the end of the semester
 --------------------------
 
 1. Make sure to commit or throw away any of the remaining changes you've
@@ -121,10 +121,10 @@ At the End of the Semester
 3. Since you're about to start a new version of the course, make a branch
    for this old version.
 
-     git checkout -b 2016S
-     git push origin 2016S
+     git checkout -b 2018S
+     git push origin 2018S
 
-Starting a New Course
+Starting a new course
 ---------------------
 
 To create a new course, you need to fork the generic course repo. 
@@ -139,15 +139,15 @@ It goes something like this.
 
 2. Clone the original repository onto your local machine
 
-        git clone git@github.com:rebelsky/generic-course-jekyll.git 2017S
+        git clone git@github.com:rebelsky/generic-course-jekyll.git 2018S
 
    or
 
-        git clone http://github.com/rebelsky/generic-course-jekyll 2017S
+        git clone http://github.com/rebelsky/generic-course-jekyll 2018S
 
 3. Edit the Git config file
 
-        cd 2017S
+        cd 2018S
         vi .git/config
         :1,$s/generic-course/csc000/g
         :wq
@@ -162,14 +162,16 @@ It goes something like this.
 
 7. Do the normal start of semester activities.
 
-Working with the Outlines and Schedule
+Working with the outlines and schedule
 --------------------------------------
 
+_This section is now out of date!_
+
 I've set up a slightly complex system for dealing with the course
-schedule, the daily outlines (what I plan to talk about), and the daily
-eboards (what I actually talk about).  When setting up a new course or
-updating an existing course, it's important to do thinking in something
-like the following order:
+schedule, the daily outlines (what I plan to talk about; soon to
+be deprecated), and the daily eboards (what I actually talk about).
+When setting up a new course or updating an existing course, it's
+important to do thinking in something like the following order:
 
 1. Update resources/subjects.var to list all of the daily subjects.
 
@@ -186,7 +188,7 @@ from old Siteweaver courses, and needs to be configured appropriately.)
 5. In the handouts directory, run the command `../tools/schedule-overviews`
 to make XML equivalents to the `md` files.
 
-An Incomplete Strategy for Pushing Updates from Forks
+An incomplete strategy for pushing updates from forks
 -----------------------------------------------------
 
 The difficulty in pushing updates from forks is that you've usually

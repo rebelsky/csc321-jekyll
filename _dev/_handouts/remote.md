@@ -26,7 +26,7 @@ There are four primary mechanisms for doing CSC 151 work remotely.
    Debian and Ubuntu regularly.)  Once again, you'll have to deal with
    the files residing on your computer, rather than on MathLAN.
 
-4. You can use an application called [VNC](http://www.cs.grinnell.edu/vnc)
+4. You can use an application called [VNC](https://www.cs.grinnell.edu/vnc)
    to connect to the MathLAN.  This approach seems to work well for people
    who want to work with the MathLAN software and have limited bandwidth.
    However, it requires a lot of extra work to do securely.  It can
@@ -97,23 +97,23 @@ Using ssh from a Microsoft Windows workstation
 ----------------------------------------------
 
 About a decade ago, a student wrote
-[instructions](http://www.cs.grinnell.edu/~rebelsky/Glimmer/MediaScript/lubinski.txt)
+[instructions](https://www.cs.grinnell.edu/~rebelsky/Glimmer/MediaScript/lubinski.txt)
 for connecting from Windows computers using
-[PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/) and
-[Xming](http://sourceforge.net/projects/xming/).  Those are likely to
+[PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/) and
+[Xming](https://sourceforge.net/projects/xming/).  Those are likely to
 still work correctly.  If someone wants to write a simpler version of
 those instructions, we'll put them here.
 
 Using VNC securely on Mac, Windows, or Linux
 --------------------------------------------
 
-Follow the [poorly written VNC instructions](http://www.cs.grinnell.edu/vnc)
+Follow the [poorly written VNC instructions](https://www.cs.grinnell.edu/vnc)
 
 Using VNC insecurely on Microsoft Windows
 -----------------------------------------
 
 You will need to install
-[PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/) and
+[PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/) and
 [VNC Viewer](https://www.realvnc.com/download/viewer/).
 
 1. Using PuTTY, connect to one of the MathLAN machines mentioned above.

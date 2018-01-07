@@ -12,7 +12,7 @@ structure and style of those courses.  Please read this document
 thoroughly and carefully so that neither you nor I have to deal
 with instances of academic dishonesty.  Please also review the
 Computer Science Department's policy on academic honesty, available
-at <ulink url="http://www.cs.grinnell.edu/academic-honesty-policy"/>,
+at <ulink url="https://www.cs.grinnell.edu/academic-honesty-policy"/>,
 as that policy is in effect for this class.*
 
 An important characteristic of the academic endeavor is the notion
@@ -372,7 +372,7 @@ CHB to those I follow for CAS.
 If CAS and CHB do not consider the violation within their purview,
 I will apply the principles and approaches stated within the CS
 Department's [policy on academic
-honesty](http://www.cs.grinnell.edu/academic-honesty-policy).
+honesty](https://www.cs.grinnell.edu/academic-honesty-policy).
 
 Academic Honesty and Computer Science
 -------------------------------------
