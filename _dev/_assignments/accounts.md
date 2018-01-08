@@ -8,8 +8,11 @@ due-time: 10:30pm Sunday
 ---
 # {{ page.title }}
 
-1. Within the next day, you will receive an invitation to join Cloud 9
-(c9.io).  Accept that invitation.
+1. You should have received an invitation to join Cloud 9
+(<https://c9.io>).  Accept that invitation.  Note that you can
+create only one private workspace on Cloud 9; use that only for
+your community project.  It's fine if you do your homework in a
+public workspace.
 
 2. Please set up accounts with the following services.
 
