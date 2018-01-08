@@ -1,6 +1,6 @@
 ---
 title: "HW 3: Behavior-driven design through Cucumber"
-link: true
+link: false
 due: 2017-09-26
 due-time: 10:30 p.m.
 ---
