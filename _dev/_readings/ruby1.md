@@ -1,13 +1,15 @@
 ---
-title: Introducing Ruby (SaaSbook 3.1-3.4)
+title: Reading
+subtitle: Introducing Ruby
 link: true
-due: 2017-08-29
+schedule: 2018-01-29
+due: 2018-01-28
+due-time: 9:00pm Sunday
 ---
-Introducing Ruby
-================
+# {{ page.title }}: {{ page.subtitle }}
 
-Read sections 3.1-3.4 of the SaaSbook (a.k.a. _Engineering Software as a Service_)
-and then answer the following questions.
+Read sections 3.1-3.4 of the SaaSbook (a.k.a. _Engineering Software as
+a Service_) and then answer the following questions.
 
 1. You have learned Ruby in three ways: Through an online tutorial, through
 narrative in a textbook, and through writing slightly more open-ended code.  
@@ -18,7 +20,7 @@ hinder your learning?
 
 3. What is something interesting and new that you have learned about Ruby?
 
-For the journal send an email message to me titled "**CSC 321 2017F,
-Journal for Class 2 (*Name*)**" (without the quotation marks) and with
+For the journal send an email message to me titled "**CSC 321 2018S,
+Journal for Class 4 (*Name*)**" (without the quotation marks) and with
 answers to those questions in the body of the email.
 
