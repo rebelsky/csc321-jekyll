@@ -1,4 +1,4 @@
 {% if include.item.link %}<a href="{{ include.item.url | replace: ".html", "" | prepend: ".." }}">{% endif %}
 {% if include.item.section %}{{ include.item.section }}:{% endif %}
-{{ include.item.title }}{% if include.item.link %}</a>{% endif %}{% if include.item.subtitle and include.show-subtitle %}: <i>{{ include.item.subtitle }}</i>{% endif %}
+{{ include.item.title }}{% if include.item.subtitle and include.show-subtitle %}: {{ include.item.subtitle }}{% endif %}{% if include.item.link %}</a>{% endif %}
 {% if include.show-due-time and include.item.due-time %}<i> (by {{ include.item.due-time }}{% if include.show-due-time and include.item.due-real %} {{ include.item.due-real | date: '%A' }}{% endif %})</i>{% endif %}

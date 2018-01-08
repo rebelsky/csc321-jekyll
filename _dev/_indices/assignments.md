@@ -12,14 +12,14 @@ assignment.  However, reading journals should be submitted individually.
   {% for assignment in assignments %}
     {% if assignment.link %}
       {% if assignment.due %}
-        <dt>{% include schedule_item.html item=assignment show-due-time=false %}</dt>
+        <dt>{% include schedule_item.html item=assignment show-due-time=false show-subtitle=true %}</dt>
         <dd>
           <ul class="list-inline">
             {% if assignment.assigned %}
-              <li>Assigned {{ assignment.assigned | date: '%B %-d, %Y' }}</li>
+              <li>Assigned {{ assignment.assigned | date: '%-d %B %Y' }}</li>
             {% endif %}
             {% if assignment.due %}
-              <li>Due {{ assignment.due | date: '%B %-d, %Y' }}{% if assignment.due-time %} <i>(before {{ assignment.due-time | split: ' ' | first }})</i>{% endif %}</li>
+              <li>Due {{ assignment.due | date: '%-d %B %Y' }}{% if assignment.due-time %} <i>(before {{ assignment.due-time | split: ' ' | first }})</i>{% endif %}</li>
             {% endif %}
           </ul>
         </dd>

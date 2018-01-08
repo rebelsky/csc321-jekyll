@@ -14,16 +14,8 @@ and may change significantly.**
 [Week 4](#week04) |
 [Week 5](#week05) |
 [Week 6](#week06) |
-[Week 7](#week07) |
-[Week 8](#week08) |
-[Week 9](#week09) |
-[Week 10](#week10) |
-[Week 11](#week11) |
-[Week 12](#week12) |
-[Week 13](#week13) |
-[Week 14](#week14)
+[Week 7](#week07) 
 <a name="schedule"></a>
->>>>>>> b0731697e0c8061b8e2ceec411fea6f8e31ab19d
 
 <table class="table table-condensed table-responsive text-center">
   <tbody style="vertical-align: middle">
@@ -31,16 +23,14 @@ and may change significantly.**
     {% for week_data in site.data.dates %}
       {% if week_data.days %}
         <tr class="week-header">
-          <td colspan="8"><a name="{{ week_data.anchor }}"></a>{{ week_data.week }}</td>
+          <td colspan="9"><a name="{{ week_data.anchor }}"></a>{{ week_data.week }}</td>
         </tr>
         <tr class="column-header">
           <td class="hidden-xs">#</td>
           <td class="hidden-xs">Day</td>
           <td>Date</td>
-          <td colspan="2">Topic</td>
-          <td>Reading(s)</td>
-          <td>Lab</td>
-          <td>Work Due</td>
+          <td colspan="4">Topic</td>
+          <td colspan="2">Work Due</td>
         </tr>
         {% for day in week_data.days %}
           {% assign class = site.data.classes[daynum] %}
@@ -51,7 +41,7 @@ and may change significantly.**
             <td class="hidden-xs">{{ classnum }}</td>
             <td class="hidden-xs">{{ day | date: "%A" | remove: "onday" | remove: "uesday" | remove: "ednesday" | remove: "ursday" | remove: "riday" }}</td>
             <td>{{ day | date: "%-m/%-d" }}</td>
-            <td halign="left" colspan="2">
+            <td halign="left" colspan="4">
                     <a href="{{ site.baseurl }}/outlines/outline.{{ twodig }}.html">
                     <strong>{{ class.topic | markdownify | remove: '<p>' | remove: '</p>' }}</strong>
                     </a>
@@ -59,53 +49,19 @@ and may change significantly.**
                 <br>
                   <em>{{ class.summary | markdownify | remove: '<p>' | remove: '</p>' }}</em>
             </td>
-            <td>
-              {% if class.reading %}
-                <ul>
-                  {% for item in class.reading %}
-                    {% assign itemlong = item | append: ".html" | replace: ".html.html", ".html" %}
-                    {% assign reading = site.documents | where: "url", itemlong | first %}
-                    {% if reading %}
-                      <li>{% include schedule_item.html item=reading show-due-time=false %}</li>
-                    {% else %}
-                      <li>{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</li>
-                    {% endif %}
-                  {% endfor %}
-                </ul>
-              {% else %}
-                <i>No reading</i>
-              {% endif %}
-            </td>
-            <td>
-              {% if class.lab %}
-                <ul>
-                  {% for item in class.lab %}
-                    {% assign itemlong = item | append: ".html" | replace: ".html.html", ".html" %}
-                    {% assign lab = site.documents | where: "url", itemlong | first %}
-                    {% if lab %}
-                      <li>{% include schedule_item.html item=lab show-due-time=false %}</li>
-                    {% else %}
-                      <li>{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</li>
-                    {% endif %}
-                  {% endfor %}
-                </ul>
-              {% else %}
-               <i>No lab</i>
-              {% endif %}
-            </td>
             <td class="text-nowrap">
-              {% assign work_due = site.documents | where: "due", day %}
-              {% include schedule_items.html items=work_due show-due-time=true %}
+              {% assign work_due = site.documents | where: "schedule", day %}
+              {% include schedule_items.html items=work_due show-due-time=true show-subtitle=true %}
             </td>
           </tr>
           {% assign daynum = daynum | plus: 1 %}
         {% endfor %}
       {% else %}
         <tr class="week-header">
-          <td colspan="8">{{ week_data.week }}</td>
+          <td colspan="9">{{ week_data.week }}</td>
         </tr>
         <tr>
-          <td colspan="8"></td>
+          <td colspan="9"></td>
         </tr>
       {% endif %}
     {% endfor %}

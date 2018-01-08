@@ -1,5 +1,5 @@
 <ul>
 {% for item in include.items %}
-  <li>{% include schedule_item.html item=item show-due-time=include.show-due-time %}</li>
+  <li>{% include schedule_item.html item=item show-due-time=include.show-due-time show-subtitle=include.show-subtitle %}</li>
 {% endfor %}
 </ul>
