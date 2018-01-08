@@ -34,7 +34,7 @@ to change significantly.**
 
 ## About this course
 
-Welcome to the Fall 2017 section of Grinnell College's CSC 321,
+Welcome to the Spring 2018 section of Grinnell College's CSC 321,
 *Software Design: Principles and Practices*.  In CSC 321, we build
 your skills in software development to prepare you for projects
 in CSC 322 and elsewhere.  The current model of the course focuses on
