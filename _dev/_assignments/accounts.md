@@ -18,7 +18,7 @@ public workspace.
 
     a. <https://github.com> - Version control 
 
-    b. <https://bitbucket.org/> - Version control
+    b. <https://bitbucket.org> - Version control
 
     b. <https://www.edx.org> - MOOC
 
@@ -30,10 +30,14 @@ public workspace.
 
     f. <https://www.heroku.com> - Deploy rails apps
 
+    g. <https://www.awseducate.com/Registration> - AWS cloud services
+
 3. Email your ids for the various services to the mentor and to me.
-Title your message "**CSC 321.01 2018S HW 0 (_NAME_)**".  Please substitute
-your own name and do not include the quotation marks.  The content
-of the message should look something like the following
+Title your message "**{{ site.courseid }} {{ site.semester }}, {{
+page.title }}: {{ page.subtitle }} (_Name_)**".  Please replace "_Name_"
+with your name and do not include the quotation marks.
+
+The content of the message should look something like the following
 
     ```
     Name: Samuel A. Rebelsky
