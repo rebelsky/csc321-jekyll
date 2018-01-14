@@ -1,10 +1,10 @@
 ---
 title: HW 4
-subtitle: Your first app (Hartl, Chapter 2)
+subtitle: Your first Rails app (Hartl, Chapter 2)
 link: true
 schedule: 2018-02-05
 due: 2018-02-04
-due-time: 10:30pm Tuesday
+due-time: 10:30pm Sunday
 ---
 # {{ page.title }} : {{ page.subtitle }}
 
