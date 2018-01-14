@@ -1,35 +1,40 @@
 ---
-title: "User stories + Software as a Servcie"
+title: Reading
+subtitle: User stories
 link: true
-due: 2017-09-14
+day: 9
+schedule: 2018-02-09
+due: 2018-02-08
+due-time: 9:00pm Thursday
 ---
-# Reading: {{page.title}}
+# {{ page.title }} : {{ page.subtitle }}
 
 1. Read sections 7.1-7.5 of the SaaSbook.
 
-2. Watch at least one SaaSbook video for those sections in "full attention"
-mode.  You should only have the video on the screen.  You should have no
-distractors.  You should have a notebook and writing utensil in hand.  You
-may watch at whatever speed you consider appropriate.
+2. Watch at least one SaaSbook video for those sections in "full
+attention" mode.  You should only have the video on the screen.
+You should have no distractors.  You should have a notebook and
+writing utensil in hand.  You may watch at whatever speed you consider
+appropriate.
 
-3. Review chapters 2 and 4 of the SaaSbook, focusing primarily on the
-concept of "Software as a Service".
+For the journal send an email message to me titled "**{{ site.courseid
+}} {{ site.semester }} Journal for Day {{ page.day }} (*Your Name*)**"
+(without the quotation marks) and with answers to the following questions.
 
-4. Read Richard Stallman's "Who does that server really serve?", available
-online at <https://www.gnu.org/philosophy/who-does-that-server-really-serve.en.html>.
+1. Describe the standard form of a user story.  
 
-For the journal send an email message to me titled "**CSC 321 2017F,
-Journal for Day 7 (*Your Name*)**" (without the quotation marks) and
-with answers to the following questions.
+2. Why do user stories have a standard form?
 
-1. If you are in a CSC 322 project group, write two user stories on your
-project.  (Each member of that group must write two stories.)  If you are
-not in a CSC 322 project group, write two user stories for a four-year
-planner service that allows Grinnell students and faculty to collaborate
-on building four-year plans.
+3. SpamR is a service that gathers email that people send to the csstudents
+mailing list.  Write a user story for SpamR from the perspective of a student,
+faculty member, or other appropriate group.
 
-2. What confused you the most about the reading on user stories?  Explain
+4. The CS course planner is a service that allows students to track
+planned offerings of courses in the CS department and the department
+chair to track likely demand for those classes.  Write a user story
+for the CS course planner from the perspective of the deparmtent chair,
+a faculty member, or a student.
+
+5. What confused you the most about the reading on user stories?  Explain
 the issue as best you can.
 
-3. Fox/Patterson and Stallman provide very different views on Software
-as a Service.  Quickly explain which you prefer and why.
