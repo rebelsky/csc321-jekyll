@@ -2,9 +2,9 @@
 title: HW 3
 subtitle: Getting started with Rails (Hartl, Chapter 1)
 link: true
-schedule: 2018-02-05
-due: 2018-02-04
-due-time: 10:30pm Sunday
+schedule: 2018-02-02
+due: 2018-02-01
+due-time: 10:30pm Thursday
 ---
 # {{ page.title }} : {{ page.subtitle }}
 
