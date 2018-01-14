@@ -98,16 +98,17 @@
   abbrev: bdd
   read: SaaSbook 7
 
-- topic: Modeling basics
-  abbrev: modeling-basics
-  read: Hartl 6
-
-- topic: Modeling, continued
-  abbrev: modeling-continued
+- topic: Modeling data
+  abbrev: modeling-data
+  summary: We continue to explore ways to model data and the relationships between data.
 
 - topic: Test-driven development (TDD)
   abbrev: tdd
   read: SaaSbook 8
+
+- topic: Project wrapup
+  abbrev: project-wrapup
+  summary: We conclude our Rails project and debrief on issues we encountered.
 
 - topic: Legacy code
   abbrev: legacy
