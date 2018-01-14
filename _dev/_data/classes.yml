@@ -94,9 +94,9 @@
   subjects:
     - TBD
 
-- topic: Behavior-driven design (BDD)
-  abbrev: bdd
-  read: SaaSbook 7
+- topic: Modeling relational data in SQL
+  abbrev: sql
+  summary: We explore what is happening "behind the scenes" in Ruby and see how to model data using SQL.
 
 - topic: Modeling data
   abbrev: modeling-data
@@ -110,12 +110,13 @@
   abbrev: project-wrapup
   summary: We conclude our Rails project and debrief on issues we encountered.
 
-- topic: Legacy code
+- topic: Legacy code and code smells
   abbrev: legacy
   read: SaaSbook 9, 10.4-10.9
 
-- topic: Code smells and how to address them
-  abbrev: code-smells
+- topic: Refactoring code
+  abbrev: refactoring
+  summary: We continue our exploration of legacy code and how to address it.
   read: ???
 
 - topic: Design patterns
@@ -124,10 +125,10 @@
   subjects:
     - Why design patterns?
     - Reading reactions
+    - Just enough UML
     - Flyweight
     - Iterator
     - Adaptor
-    - Factory
   read: SaaSbook 11
 
 - topic: Design patterns, continued
