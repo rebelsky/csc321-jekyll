@@ -1,9 +1,15 @@
 ---
-title: Modeling
-link: true
-due: 2017-09-28
+title: Reading
+subtitle: Modeling
+schedule: 2018-02-19
+link: false
+day: 13
+due: 2018-02-18
+due-time: 9:00pm Sunday
 ---
 # Reading: {{ page.title }}
+
+_The particulars of this reading are still to be determined._
 
 For the journal send an email message to me titled "**CSC 321 2017F,
 Journal for Day 11 (*Your Name*)**" (without the quotation marks) and

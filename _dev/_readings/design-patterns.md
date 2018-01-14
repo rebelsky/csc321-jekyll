@@ -1,16 +1,19 @@
 ---
-title: Design patterns
+title: Reading
+subtitle: Design patterns
 link: true
-due: 2017-10-02
-current: true
+schedule: 2018-03-05
+day: 19
+due: 2018-03-04
+due-time: 9:00pm Sunday
 ---
-# Reading: {{ page.title }}
+# {{ page.title }}: {{ page.subtitle }}
 
 Read Chapter 11 of the SaaSbook
 
-For the journal send an email message to me titled "**CSC 321 2017F,
-Journal for Day 13 (*Your Name*)**" (without the quotation marks) and
-with answers to the following questions.
+For the journal send an email message to me titled "**{{ site.courseid
+}} {{ site.semester }} Journal for Day {{ page.day }} (*Your Name*)**"
+(without the quotation marks) and with answers to the following questions.
 
 1. In your own words, what is a design pattern? What is an antipattern?
 
