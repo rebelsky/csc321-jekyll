@@ -7,7 +7,7 @@ due: 2018-01-23
 due-time: 10:30pm Tuesday
 current: true
 ---
-# {{ page.title }}
+# {{ page.title }} : {{ page.subtitle }}
 
 _Warning!  This homework assignment should take you about five hours.
 Make sure that you start with enough time and that you plan breaks to
@@ -58,16 +58,18 @@ ask questions._
     `B.new` calls the `A`'s `initialize` method?  How do we design
     `B` so that `B.new` does *not* call `A`'s `initialize` method?
 
-3. Expand the movie database project from section 6 so that
+3. Expand [the movie database project from lesson 6 (Hashes and Symbols)](https://www.codecademy.com/courses/learn-ruby/lessons/a-night-at-the-movies/exercises/nice-work-1) so that
 
     a. It provides somewhat better feedback.
     
-    b. It continues to prompt the user for choices (and carry out the 
+    b. It repeatedly prompts the user for choices (and carries out the 
     corresponding action) until the user types `"quit"`.
 
-    c. It does some error checking (e.g., on the rating).
+    c. It does some error checking or input validation (e.g., on the rating).
 
-4. Email me your answers and code in the *body* of an email message entitled 
+4. [Exercise 12 of lesson 10 (Object-Oriented Programming II)](https://www.codecademy.com/courses/learn-ruby/lessons/object-oriented-programming-ii/exercises/the-marriage-of-modules-and-classes) has you use mixins to provide a `jump` method for both a `Rabbit` class and a `Cricket` class.  Extend the example so that objects keep track of and report on the total distance that they've jumped.
+
+5. Email me your answers and code in the *body* of an email message entitled 
 "**{{ site.courseid }} {{ site.semester }}, {{ page.title }}:
 {{ page.subtitle }} (_Name_)**".  Please replace "_Name_" with your name
 and do not include the quotation marks.
