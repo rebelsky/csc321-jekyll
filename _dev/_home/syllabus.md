@@ -14,7 +14,7 @@ lifecycle, agile development methods, professional tools, and software
 design principles. Includes hands-on laboratory work.
 
 In other words, we help you learn the basics of software design and
-engineering.
+software engineering.
 
 Course Format
 ------------
@@ -35,13 +35,13 @@ ask](https://blogs.akamai.com/2013/10/you-must-try-and-then-you-must-ask.html).
 Historical evidence suggests that what you get out of the course depends
 on what you put into it.
 
-The course meets two days per week for the first seven weeks of the
+The course meets three days per week for the first seven weeks of the
 semester.  Note that this semester marks the fourth or fifth different
 scheduling model we have tried for the course.  You are expected to do
 about nine hours of work outside of class each week.  You may timebox
-that work.
+the programmign part of that work.
 
-Learning Goals
+Learning goals
 --------------
 
 By the end of this course,  you should be able to
@@ -58,7 +58,7 @@ Accommodations and adjustments
 
 Please read [my policy on accommodations and adjustments]({{ site.baseurl }}/handouts/accommodations) and [my statement on accessiblity]({{ site.baseurl }}/handouts/accessibility).
 
-Important Warnings
+Important warnings
 ------------------
 
 *Warning!* The Berkeley CS 169 course that forms the underpinnings of
@@ -66,12 +66,13 @@ this course keeps changing.
 
 *Warning!* I continue to use Web tools that with which I am not completely
 familiar (e.g., edX, Jekyll).  When things look wrong on this site or
-the edX site, please notify me ASAP.
+the edX site, please notify me ASAP.  I may not always be able to fix
+things, but I will try.
 
 *Warning!* Some students prefer readings.  Some prefer videos.
 You should try both.
 
-*Warning!* We are trying a new structure for the course.  It feels a bit
+*Warning!* We continue to try new structures for the course.  It feels a bit
 compressed to me, but I think we can fit everything in.
 
 Grading
@@ -95,10 +96,10 @@ The grading scale for this course will be:
   <dt>A</dt> <dd>94&ndash;100%</dd>
   <dt>A-</dt><dd>90&ndash;93%</dd>
   <dt>B+</dt><dd>87&ndash;89%</dd>
-  <dt>B</dt> <dd>84&ndash;87%</dd>
+  <dt>B</dt> <dd>84&ndash;86%</dd>
   <dt>B-</dt><dd>80&ndash;83%</dd>
   <dt>C+</dt><dd>77&ndash;79%</dd>
-  <dt>C</dt> <dd>74&ndash;77%</dd>
+  <dt>C</dt> <dd>74&ndash;76%</dd>
   <dt>D</dt> <dd>60&ndash;69%</dd>
   <dt>F</dt> <dd>0&ndash;60%</dd>
 </dl>
@@ -157,20 +158,24 @@ expect to earn a lower score.
 Workload
 --------
 
-Here's what I expect you'll be spending your time on each week
+Here's an approximate breakdown of how you will likely spend your
+time each week.
 
-* Class time (4 hours)
+* Class time (3 hours)
 * Readings/videos/journaling (4 hours)
 * Programming and writing assignments (5 hours)
 
-The first week may be a bit busier as you get set up.
+The first week may be a bit busier as you get set up.  However, I've made
+the workload a bit lighter in the first week of CSC 322 to accommodate
+for the potential extra workload in CSC 321.
 
 Communication
 -------------
 
 Dr. Davis created a Slack team for general discussion of CSC
 321/2.  Join it here: <https://grinnell-sw.slack.com/>.  There is a
-`#homework` channel for discussion of homework assignments!
+`#homework` channel for discussion of homework assignments.  Please
+consider using Slack.
 
 Development
 -----------
@@ -179,7 +184,7 @@ The course designers recommend that we do
 development on Cloud 9.  Instructions are at
 <https://github.com/saasbook/courseware/wiki/Setting-up-Cloud9>.
 
-Books and Other Readings
+Books and other readings
 ------------------------
 
 [The CSC 321 Course Web](index.html)
@@ -206,13 +211,29 @@ Fox, Armando and Patterson, David (2017).  BerkeleyX: CS169.1x Agile Development
 to the various readings.  There are also many other resources available
 on the MOOC.  
 
+Hartl, Michael (2016).  _Ruby on Rails Tutorial_ (4th Edition).  Addison-Wesley.
+
+> The book we'll be using to learn Rails.  Available online at <https://www.rail
+stutorial.org/book>.
+
+Academic honesty
+----------------
+
+Please read [my policies on academic honesty]({{ site.baseurl }}/handouts/academic-honesty) and [the CS department's academic honesty policy](https://www.cs.grinnell.edu/academic-honesty-policy).  I expect you to sign and return the latter.
+
+Extra credit
+------------
+
+Although I regularly offer extra credit in my four-credit courses, I do
+not offer extra credit in two-credit courses.  Nonetheless, I will still
+recommend academic, artistic, cultural, and peer events on campus.
+
 Citations
 ---------
 
 Many parts of this overview, as well as the overall design of the course, are
 due to Janet Davis.  I have reused materials with her permission.
 
-## Academic Honesty
-
-Please read [my policies on academic honesty]({{ site.baseurl }}/handouts/academic-honesty) and [the CS department's academic honesty policy](https://www.cs.grinnell.edu/academic-honesty-policy).  I expect you to sign and return the latter.
+Much of the original design of this site comes from Charlie Curtsinger. 
+I've since made a variety of changes.
 
