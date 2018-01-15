@@ -132,17 +132,9 @@ These include athletic events, academic conferences, course trips,
 and religious observations.  Such absences do not count as unexecused
 absences provided you notify me of them at least one week in advance.
 
-If you are ill, I would prefer that you rest and get better rather than
-attend class.  
-
-I realize that some disabilities may require you to miss class.  Ideally,
+I understand that some disabilities may require you to miss class.  Ideally,
 these requirements are documented in your accommodations form.  But I
 will do my best to make adjustments and accommodations in all cases.
-
-If you need to miss more than two class periods for an exceptional reason
-(e.g. to attend an academic conference, deal with a family emergency,
-or due to long-term illness) please talk to me as soon as possible and
-we will make an alternate arrangement.
 
 If your are sick, *please do not come to class.*  I
 would prefer that you reset and get better.  Please seek
@@ -153,6 +145,11 @@ provided you notify me the day of class, preferably in advance of class.
 I do not require a note from SHACS or your doctor.  Note, however, if
 you are ill more than a few times, I may discuss the issue with student
 affairs and may stop excusing illness-based absences.
+
+If you need to miss more than two class periods for an exceptional reason
+(e.g. to attend an academic conference, deal with a family emergency,
+or due to long-term illness) please talk to me as soon as possible and
+we will make an alternate arrangement.
 
 Participation
 -------------
