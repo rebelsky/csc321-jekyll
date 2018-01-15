@@ -72,14 +72,19 @@
 - topic: User stories
   abbrev: user-stories
   read: SaaSbook 7.1-7.5
+  summary: We consider user stories, a key mechanism for understanding user requirements that also supports other design and development activities.
   subjects:
-    - Agility, revisited
+    - User stories
+    - Format of user stories
+    - User stories in testing (aka behavior-drivend esign)
+    - User stories in planning
 
 - topic: Extending your Rails application (1)
   abbrev: extending-rails-1
   read: Hartl 5
   subjects:
     - TBD
+  summary: We take the first steps in expanding our static site into a more visually appealing and rich site.
 
 - topic: Visits from alumni mentors
   abbrev: alumni
@@ -93,18 +98,20 @@
   read: Hartl 6
   subjects:
     - TBD
+  summary: We continue to expand the capabilities of our sample Web application.
 
 - topic: Modeling relational data in SQL
   abbrev: sql
   summary: We explore what is happening "behind the scenes" in Ruby and see how to model data using SQL.
 
-- topic: Modeling data
-  abbrev: modeling-data
-  summary: We continue to explore ways to model data and the relationships between data.
+- topic: Modeling data, continued
+  abbrev: modeling-data-continued
+  summary: We continue to explore ways to model data and the relationships between data.  (Guest lecture by KY)
 
 - topic: Test-driven development (TDD)
   abbrev: tdd
   read: SaaSbook 8
+  summary: We explore a "test-first" approach to developing programs.  (Guest lecture by JDS)
 
 - topic: Project wrapup
   abbrev: project-wrapup
@@ -112,16 +119,17 @@
 
 - topic: Legacy code and code smells
   abbrev: legacy
+  summary: We consider a variety of ways to handle existing code and to identify likely trouble spots.  We also begin to consider ways to address problematic code.
   read: SaaSbook 9, 10.4-10.9
 
 - topic: Refactoring code
   abbrev: refactoring
-  summary: We continue our exploration of legacy code and how to address it.
+  summary: We continue to explore ways to address problematic code.
   read: ???
 
 - topic: Design patterns
   abbrev: design-patterns
-  summary: We consider some basic issues pertaining to design patterns
+  summary: We consider some basic issues pertaining to design patterns, a set of guidelines for thinking about software design.
   subjects:
     - Why design patterns?
     - Reading reactions
@@ -133,7 +141,7 @@
 
 - topic: Design patterns, continued
   abbrev: design-patterns-continued
-  summary: We continue to explore design patterns
+  summary: We continue to explore design patterns.
   subjects:
     - Dependency injection
     - Observers
@@ -143,3 +151,8 @@
 
 - topic: Wrapup
   abbrev: wrapup
+  summary: We conclude the course.
+  subjects:
+    - "The subject matter of this course."
+    - Evaluations.
+    - Debrief.
