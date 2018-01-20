@@ -1,9 +1,8 @@
 ---
-title: Primary
+title: Primary links
 section: links
 ---
-Primary Links
-=============
+# {{ page.title }}
 
 <ul>
 {% include links-primary-01.html %}
