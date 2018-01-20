@@ -2,8 +2,7 @@
 title: Syllabus
 section: home
 ---
-Syllabus
-========
+# {{ page.title }}
 
 Welcome to {{ site.courseid }}! The official course description for this
 course is:
@@ -16,7 +15,7 @@ design principles. Includes hands-on laboratory work.
 In other words, we help you learn the basics of software design and
 software engineering.
 
-Course Format
+Course format
 ------------
 
 This course is being offered in a non-traditional format.  We will
@@ -36,10 +35,11 @@ Historical evidence suggests that what you get out of the course depends
 on what you put into it.
 
 The course meets three days per week for the first seven weeks of the
-semester.  Note that this semester marks the fourth or fifth different
-scheduling model we have tried for the course.  You are expected to do
-about nine hours of work outside of class each week.  You may timebox
-the programmign part of that work.
+semester.  Note that we have tried four or five different models for CSC
+321 and CSC 322 and this works the best.  Since Grinnell requires about
+twelve hours of work per course, you are expected to do about nine hours
+of work outside of class each week.  You may timebox the programming
+part of that work.
 
 Learning goals
 --------------
@@ -199,18 +199,22 @@ consider using Slack.
 Development
 -----------
 
-The course designers recommend that we do
-development on Cloud 9.  Instructions are at
-<https://github.com/saasbook/courseware/wiki/Setting-up-Cloud9>.
+I recommend that you do your development in Cloud 9.  Cloud 9 provides
+you with access to cloud-based Linux boxes on which you can install
+software.  By working on Cloud 9, rather than your own laptop, you risk
+information leaks.  You also have a more realistic development experience.
+
+Instructions for setting up Cloud 9 can be found in [the first Rails
+assignment](../assignments/hartl-1).
 
 Books and other readings
 ------------------------
 
 [The CSC 321 Course Web](index.html)
 
-> The hypertext that you are currently reading.  Right now, it looks like
-it will primarily contain my notes for each class (outlines) and my record
-of each class (eboards), but we'll see.
+> The hypertext that you are currently reading.  Right now, it looks
+like it will primarily contain the syllabus and my notes for each class
+(i.e., the eboards), but we'll see if it evolves in other directions.
 
 Fox, Armando and Patterson, David (2016). _Engineering Software as a
 Service: An Agile Approach Using Cloud Computing_, latest edition.
@@ -253,6 +257,7 @@ Citations
 Many parts of this overview, as well as the overall design of the course, are
 due to Janet Davis.  I have reused materials with her permission.
 
-Much of the original design of this site comes from Charlie Curtsinger. 
-I've since made a variety of changes.
+I've followed Charlie Curtsinger's lead in using Jekyll and Bootstrap
+to organize my course webs.  Hence, much mf the original design of this
+site comes from him.  I've since made a variety of changes.
 
