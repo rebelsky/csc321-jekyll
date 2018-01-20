@@ -23,7 +23,7 @@ Class news
   {% else %}
     {% capture num %}{{ counter }}{% endcapture %}
   {% endif %}
-  {% capture filepath %}_prelim/prelim.{{ num }}.md{% endcapture %}
+  {% capture filepath %}_prelim/prelim{{ num }}.md{% endcapture %}
   {% assign info = site.prelim | where: "path", filepath | first %}
   {% if info %}
      {% if info.link %}
