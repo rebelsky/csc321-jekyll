@@ -11,9 +11,12 @@ link: true
 * CS Table Tuesday!  (I hope.)
 * CS Extras Thursday: Research opportunities at Grinnell.
 * The course site for CSC 321 may be more ready than it's ever been.
-  Cross your fingers that it stays that way.
+  Cross your fingers that it stays that way.  Let me know when things
+  don't work.
+* There may not be a separate CSC 322 next semester.  If you are taking
+  CSC 321, please enroll in CSC 322.
 
-### Upcoming Work
+### Upcoming work
 
 * [Set up way too many accounts](../assignments/accounts) (Due YESTERDAY)
 * [Learn Ruby](../assignments/ruby-codecademy) (Due 10:30 pm TUESDAY)
