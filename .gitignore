@@ -26,10 +26,8 @@ sandbox/*
 eboards/*.md
 
 # Almost everything in the admin directory should be ignored
+admin
 admin/*
-!admin/report
-!admin/sendgrades
-!admin/sendreport
 
 # Created directories
 images/
