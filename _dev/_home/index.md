@@ -42,3 +42,8 @@ Web applications with the Sofware as a Service (SaaS) model using Agile
 Development principles.  We will ground many of the ideas in the Ruby
 on Rails framework.
 
+Note that this is likely to be the last time that CSC 321 and CSC 322
+are offered separately.  We plan to combine them into a single course
+in the fall and add a second two-credit course for students returning
+to software design.  *Do not take CSC 321 this semester without taking
+CSC 322.*
