@@ -1,8 +1,0 @@
-Some notes
-==========
-
-* Hartl 4 was in the pause for breath.  Is that Ruby?
-* I need to think about what kind of testing framework to add.
-* Every Hartl section needs an assignment.
-* CSC 322 needs something on accessibility.
-* CSC 322 needs the POODR sections.
