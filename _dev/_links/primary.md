@@ -10,10 +10,6 @@ Primary Links
 </ul>
 
 <ul>
-{% include links-primary-02.html %}
-</ul>
-
-<ul>
 {% include links-primary-03.html %}
 </ul>
 
