@@ -13,7 +13,7 @@ link: true
 * The course site for CSC 321 may be more ready than it's ever been.
   Cross your fingers that it stays that way.
 
-Upcoming Work
+### Upcoming Work
 
 * [Set up way too many accounts](../assignments/accounts) (Due YESTERDAY)
 * [Learn Ruby](../assignments/ruby-codecademy) (Due 10:30 pm TUESDAY)
