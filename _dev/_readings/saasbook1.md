@@ -7,7 +7,7 @@ due: 2018-09-12
 due-time: 9:00pm Thursday
 current: true
 ---
-# {{ page.title }}
+# {{ page.title }}: {{ page.subtitle }}
 
 Read chapter 1 and sections 10.1-10.2 of the SaaSbook.
 
