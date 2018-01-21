@@ -20,30 +20,31 @@ public workspace.
 
     b. <https://bitbucket.org> - Version control
 
-    b. <https://www.edx.org> - MOOC
+    c. <https://www.edx.org> - MOOC
 
-    c. <https://grinnell-cs.slack.com> - Communication
+    d. <https://grinnell-sw.slack.com> - Communication
 
-    d. <https://www.codecademy.com> - Learning
+    e. <https://www.codecademy.com> - Learning
 
-    e. <https://trello.com> - Task management
+    f. <https://trello.com> - Task management
 
-    f. <https://www.heroku.com> - Deploy rails apps
+    g. <https://www.heroku.com> - Deploy rails apps
 
-    g. <https://www.awseducate.com/Registration> - AWS cloud services
+    h. <https://www.awseducate.com/Registration> - AWS cloud services
 
-3. Email your ids for the various services to the mentor and to me.
+3. Message me on the course slack channel.
+
+4. Email your ids for the various services to the mentor and to me.
 Title your message "**{{ site.courseid }} {{ site.semester }}, {{
 page.title }}: {{ page.subtitle }} (_Name_)**".  Please replace "_Name_"
 with your name and do not include the quotation marks.
 
 The content of the message should look something like the following
 
-    ```
     Name: Samuel A. Rebelsky
     Email: rebelsky@grinnell.edu
     GitHub id: rebelsky
     Bitbucket id: rebelsky
     Slack id: rebelsky
     Trello id: rebelsky
-    ```
+    Heroku id: rebelsky
