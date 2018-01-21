@@ -3,8 +3,7 @@ title: Accommodations and adjustments
 section: handouts
 summary: Notes on accommodations and adjustments
 ---
-Accommodations and adjustments
-==============================
+# {{ page.title }}
 
 I encourage those of you with disabilities, particularly hidden
 disabilities such as learning disabilities, to come see me about

@@ -2,8 +2,7 @@
 title: Frequently (and not-so-frequently) asked questions
 section: handouts
 ---
-Frequently (and not-so-frequently) asked questions
-==================================================
+# {{ page.title }}
 
 These are my attempts to answer some questions that students have asked
 (in the first assignment, in office hours, via email, etc.)

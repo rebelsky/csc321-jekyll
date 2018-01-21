@@ -2,8 +2,7 @@
 title: Thoughts about electronic mail
 section: handouts
 ---
-Thoughts about electronic mail
-==============================
+# {{ page.title }}
 
 *I end up talking to students about email more than they or I would like.
 Here are a few quick notes about ways in which I use (and do not use) email.*
@@ -11,10 +10,10 @@ Here are a few quick notes about ways in which I use (and do not use) email.*
 Choosing subject lines
 ----------------------
 
-I get way too much email, hundreds of messages each day.  I rely on
-programs to automatically file my email and to search my email.  Hence,
-I'd appreciate it if you'd help me process email from you more carefully.
-Here are a few short guidelines.
+I get way too much email, literally hundreds of messages each day.  I rely
+on programs to automatically file my email and to search my email.  I also
+scan email to find high-priority.  Hence, I'd appreciate it if you'd help me
+process email from you more carefully.  Here are a few short guidelines.
 
 * Please take the time to choose an appropriate subject line for your 
   email message.
@@ -36,7 +35,8 @@ Here are a few short guidelines.
   question, please put a term like "Question" or
   "Help" or even "**HELP!**" in the subject
   line.  (Yes, I know that the use of all capital letters is a form
-  of shouting.  It's okay if you virtually shout when asking for help.)
+  of shouting.  It's okay, and perhaps even preferable, if you virtually 
+  shout when asking for help.)
 * If you are replying to a message and are changing the topic of
   the message, please also change the subject line.  If you want to
   be precise, you can include the old subject line in parentheses,
@@ -79,17 +79,17 @@ encrypted message via Webmail).
 GPG is available for all three major operating systems (and probably
 for others, too).
 
-* On the Mac, I use [GPGMail 2](https://gpgtools.org/).
-  I find it simple and straightforward.
+* On the Mac, I use [GPG Suite](https://gpgtools.org/).
+  I find it simple and straightforward.  Most of my colleagues use
+  it too.
 * I don't use Microsoft Windows, but I hear that 
   [gpg4win](https://www.gpg4win.org/)
   works pretty well.
 * On the Linux workstations in the MathLAN, GPG is installed as
   a command line tool.
 
-If you send me your public key (or a link to your public key)
-and ask me to encrypt email to you, I will do my best to remember
-(although I may not always succeed).   You can find my public key at
-<https://www.cs.grinnell.edu/~rebelsky/rebelsky.gpg> or at the MIT server,
-<https://pgp.mit.edu/>.
-
+If you send me your public key (or a link to your public key) and
+ask me to encrypt email to you, I will do my best to remember
+(although I may not always succeed).   You can find my public key
+at <https://www.cs.grinnell.edu/~rebelsky/rebelsky.gpg>.
+or at the MIT key server, <https://pgp.mit.edu>.

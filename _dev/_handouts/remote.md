@@ -1,9 +1,8 @@
 ---
-title: Doing CSC 151 work remotely
+title: Doing CS work remotely
 section: handouts
 ---
-Doing CSC 151 work remotely
-===========================
+# {{ page.title }}
 
 There are four primary mechanisms for doing CSC 151 work remotely.
 

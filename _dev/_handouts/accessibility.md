@@ -3,8 +3,7 @@ title: Accessibility of Web pages
 section: Handouts
 summary: Notes on the accessibility of this Web site
 ---
-Accessibility of Web pages
-==========================
+# {{ page.title }}
 
 As I note in [my statement on accommodations and
 adjustments](../handouts/accommodations), I do what I can to accommodate

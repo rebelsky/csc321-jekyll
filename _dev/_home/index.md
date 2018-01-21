@@ -3,9 +3,6 @@ title: Software Design Principles and Practices
 ---
 # {{ site.title }}
 
-**Warning!  The class site is currently under development.  Expect things
-to change significantly.**
-
   <dl class="dl-horizontal">
     <dt>Instructor</dt>
     <dd>
@@ -47,3 +44,5 @@ are offered separately.  We plan to combine them into a single course
 in the fall and add a second two-credit course for students returning
 to software design.  *Do not take CSC 321 this semester without taking
 CSC 322.*
+
+Read more about the course in [the syllabus](../home/syllabus) and [the schedule](../home/schedule).

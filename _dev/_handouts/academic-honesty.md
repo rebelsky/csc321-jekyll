@@ -1,10 +1,9 @@
 ---
-title: Academic Honesty
+title: Academic honesty
 section: handouts
 author: Samuel A. Rebelsky
 ---
-Academic Honesty
-================
+# {{ page.title }}
 
 *This document describes my general approach to academic
 honesty. I may modify it for individual courses to better fit the
@@ -69,18 +68,17 @@ that you worked as part of a group or team, and who the members of
 that group or team are.
 
 *You should never "give away" answers to homework assignments or
-examinations.*  You may, however, work together in developing an
-approach for most homework assignments - design, general algorithms,
-etc.  Except as specified on individual assignments, each student
-should develop his or her own final version of the assignment.  On
-most written assignments, each student should write up an individual
-version of the assignment and cite the discussion.  On non-group
-programming assignments, each student should do his or her own
-programming, although students may help each other with design and
-debugging.  If someone else (e.g., a classmate or class mentor)
-helps you on an assignment, please include a note in the assignment
-that indicates that you received such help and summarizes the help
-you received.
+examinations.*  You may, however, work together in developing an approach
+for most homework assignments - design, general algorithms, etc.  Except
+as specified on individual assignments, each student should develop his,
+her, zir, or their own final version of the assignment.  On most written
+assignments, each student should write up an individual version of the
+assignment and cite the discussion.  On non-group programming assignments,
+each student should do his, her, zir, or their own programming, although
+students may help each other with design and debugging.  If someone else
+(e.g., a classmate or class mentor) helps you on an assignment, please
+include a note in the assignment that indicates that you received such
+help and summarizes the help you received.
 
 *When working on examinations, you should not directly use
 people (other than me) as resources*.  In most cases, I
@@ -94,7 +92,7 @@ If you have a question as to whether a particular action may violate
 academic standards, please discuss it with me (preferably before you
 undertake that action).
 
-Collaborative Work
+Collaborative work
 ------------------
 
 Most of my teaching involves *collaborative work*.
@@ -120,7 +118,7 @@ assignment, you may assume that you can talk about design together,
 should code individually, and can help each other look for bugs (in
 design, code, implementation, whatever).
 
-Categories of Work
+Categories of work
 ------------------
 
 In my classes, I assign a variety of types of work.  Different categories
@@ -155,13 +153,12 @@ or related issues.  I'm very strict about this issue; I want you
 to avoid *all* discussion about the exam, not just questions about
 the material on the exam.  You certainly can't ask someone how to
 do a problem.  But you can't ask about other things, either.  For
-example, you may not even ask a tutor or mentor how to use the
-programming language for the exam.  Similarly, you may not ask a
-colleague how much they've done on the exam or whether they've
-finished a problem (and you can't brag about finishing a problem
-either).  At times, I may give you permission to talk to the course
-mentor about an exam, but please make sure that you have explicit
-permission.
+example, unless I grant explicit permission, you may not even ask a tutor
+or mentor how to use the programming language for the exam.  Similarly,
+you may not ask a colleague how much they've done on the exam or whether
+they've finished a problem (and you can't brag about finishing a problem
+either).  At times, I may give you permission to talk to the course mentor
+about an exam, but please make sure that you have explicit permission.
 
 *In-class quizzes and examinations* are also always individual work.
 You may not talk during class or discuss the exam with anyone in
@@ -170,7 +167,7 @@ typically closed-book and closed computer.  However, I typically
 allow students to bring one sheet (8.5 x 11 inches) of hand-written
 notes to the exam.
 
-Citing Program Code
+Citing program code
 -------------------
 
 Note that computer programming shares with normal writing a need to
@@ -204,7 +201,7 @@ URL*.")
 You need not cite the libraries you use, as the command to include
 libraries within a program provides sufficient citation.
 
-Citing Web Pages
+Citing Web pages
 ----------------
 
 The advances of the Internet and the World Wide Web have led to
@@ -236,7 +233,7 @@ Once again, although I prefer careful citations, I will accept anything
 that shows that you've made an appropriate effort to acknowledge any
 work that your work draws upon.
 
-Sample Take-Home Examination Policies
+Sample take-home examination policies
 -------------------------------------
 
 *These are my typical policies for take-home examinations.  They
@@ -284,7 +281,7 @@ of the dishonesty, simply that it happened. Note also that inappropriate
 assistance is assistance from (or to) anyone other than Professor
 Rebelsky (that's me).
 
-Illustrative Violations of Academic Honesty Policies
+Illustrative violations of academic honesty policies
 ----------------------------------------------------
 
 Fortunately, there are few instances I've observed in which students
@@ -336,7 +333,7 @@ problem admits a huge variety of possible solutions and I see similar
 solutions, or when the solutions I see are not so "natural", I am
 likely to find it necessary to report the similarity.
 
-Responding to Violations
+Responding to violations
 ------------------------
 
 Many years ago (long before I came to Grinnell), the Faculty of
@@ -374,7 +371,7 @@ I will apply the principles and approaches stated within the CS
 Department's [policy on academic
 honesty](https://www.cs.grinnell.edu/academic-honesty-policy).
 
-Academic Honesty and Computer Science
+Academic honesty and computer science
 -------------------------------------
 
 You may have noted that this discussion of academic honesty is
@@ -414,16 +411,15 @@ it may be that there are more opportunities for "valid" copying,
 but some students are not accustomed to citing when they copy, and
 so neglect to do so.  Other issues are also likely involved.
 
-Whatever the reason, we report a lot.  And I *hate*
-to have to report such cases.  First, I care a lot about my students,
-and don't like to see them go through the stress of a hearing.  
-Second, it takes a lot of my time to properly document a case, time
-I'd much rather spend doing work that will improve my courses.  Third,
-as noted above and in the department policy, I want to help students
-develop good habits and it bothers me when I fail.
+Whatever the reason, we report a lot.  And I *hate* to have to report such
+cases.  First, I care a lot about my students, and don't like to see them
+go through the stress of a hearing.  Second, it takes a lot of my time to
+properly document a case, time I'd much rather spend doing work that will
+improve my courses.  Third, as noted above and in the department policy,
+I want to help students develop good habits and it bothers me when I fail.
 
-Please don't make life more difficult for yourself or for me - take
-care in all of your work, include a citation whenever you copy (even
-if you modify after copying), and only rely on others when you are
-permitted to do so.
+Please don't make life more difficult for yourself or for me - take care
+in all of your work, include a citation whenever you copy (even if you
+modify after copying), and only rely on others when you are permitted
+to do so.
 
