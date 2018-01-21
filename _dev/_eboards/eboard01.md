@@ -35,6 +35,9 @@ Preliminaries
   don't work.
 * There may not be a separate CSC 322 next semester.  If you are taking
   CSC 321, please enroll in CSC 322.
+* Please fill out the Data Buddies survey that you received over break.
+  <https://cerp.co1.qualtrics.com/jfe/form/SV_3UH7q6TmdZ8YRPD>.
+  Surveys are more meaningful if we get higher participation.
 
 ### Upcoming work
 
@@ -78,5 +81,4 @@ Course structure
 Work time (if there's time)
 ---------------------------
 
-Start the Codecademy Ruby Tutorial.  
-<https://www.codecademy.com/learn/ruby>
+Start the Codecademy Ruby Tutorial.  <https://www.codecademy.com/learn/ruby>
