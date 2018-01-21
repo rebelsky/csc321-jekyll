@@ -17,9 +17,8 @@ My experience shows that students who turn in work late learn
 significantly less than students who turn material in on time.  (I'm
 not sure about cause and effect.)  Hence, I strongly discourage late
 assignments.  Unless prior arrangements have been made, assignments are
-due at the time stated on the homework assignment.  Late assignments are
-penalized approximately the equivalent of one letter grade per day late
-(or fraction thereof).
+due at the time stated on the homework assignment.  Late assignments
+for this course will receive no more than 75% of the assigned grade.
 
 Because I am concerned about your health and well being, I will waive
 the late penalty if (1) you start the assignment at least three days
@@ -86,8 +85,8 @@ know early in the semester about absences later in the semester), you
 should also attempt to provide me with information early in the semester
 so that we can reach an appropriate understanding.
 
-Weekly homework
----------------
+Regular homework
+----------------
 
 I have tried a variety of approaches to grading homework.  I admit to some
 fondness for a plus/check/minus/zero (or excellent/good/fair/poor) scale,
@@ -106,43 +105,3 @@ component of your grade.  Check plus and plus grades will increase
 the letter grade.  (Students who earn check plus or plus on at
 least 1/4 on the assignments are likely to earn A's on the assignments.)  
 Check minus or minus grades will decrease the letter grade.
-
-To help you monitor your learning, you will be required to complete a
-"wrapper" for some assignments and many examinations. After reading
-each assignment, but before sitting down to undertake the assignment,
-you will complete a short survey that asks you to estimate the amount
-of time you will need to complete the assignment, and possibly answer
-some other questions. After you have completed the assignment, you
-will report how long the assignment actually took and reflect on any
-differences from your prediction.  My colleague Janet Davis tells me
-that evidence suggests that doing such activities enhance learning.
-
-Because students can often learn and accomplish more in teams, I encourage
-collaboration on homework assignments.  However, I've also heard from
-many of our majors that they regretted always working with the same
-people, and that they too often felt compelled to work with friends.
-Hence, I will assign teams for most homework assignments.
-
-I realize that not everyone wants to work with partners.  I'll even
-admit that when I was your age, I generally preferred to work alone.
-Nonetheless, I know that working with others is an important skill,
-and so I want you to give group assignments a try.  After the first
-few programming assignments I will give you the opportunity to decide
-whether you want me to continue to assign you to a team or whether you
-prefer to work alone.
-
-Examinations
-------------
-
-I tend to use a "coarse-grained grading" strategy for my exams.  Your
-solution to each problem is either mostly correct, or it is not.  If
-it's mostly correct, you will receive full credit.  If it's not, you will
-receive no credit (or, in some cases, one-half credit).  Your grade on
-the exam will then be based on the number of problems for which you
-received full credit.  If you get full credit on all problems, you get an
-A.  If you miss one problem, you get a B.  And so on and so forth.
-
-Those who want to know more about this approach
-can read [my short essay on coarse-grained
-grading](https://www.cs.grinnell.edu/~rebelsky/musings/coarse-grained-grading).
-
