@@ -9,6 +9,8 @@ due-time: 9:00pm Thursday
 ---
 # Reading: {{page.title}}
 
+{% include due.md %}
+
 Review sections 7.1-7.2 and read chapter 8 of the SaaSbook.
 
 For the journal send an email message to me titled "**{{ site.courseid

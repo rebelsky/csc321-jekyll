@@ -1,10 +1,13 @@
 ---
-title: "Reading: Software as a Service"
+title: Reading
+subtitle: Software as a Service
 link: true
 due: 2017-09-07
 due-time: 8:00 p.m.
 ---
 # {{ page.title }}
+
+{% include due.md %}
 
 Read Chapter 2 of _Engineering Software as a Service_ (aka "The SaaSbook").
 

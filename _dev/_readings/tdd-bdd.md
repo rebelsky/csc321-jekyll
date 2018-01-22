@@ -5,6 +5,8 @@ due: 2017-09-19
 ---
 # Reading: {{page.title}}
 
+{% include due.md %}
+
 Read chapters 7 and 8 of the SaaSbook.
 
 For the journal send an email message to me titled "**CSC 321 2017F,

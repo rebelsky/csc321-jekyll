@@ -6,6 +6,8 @@ due-time: 8:00 p.m.
 ---
 # {{ page.title }}
 
+{% include due.md %}
+
 1. You have now seen a variety of ways of implementing `sums_to_n?`?
 Which one do you prefer and why?
 

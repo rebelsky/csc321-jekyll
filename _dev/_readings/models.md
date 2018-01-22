@@ -9,6 +9,8 @@ due-time: 9:00pm Sunday
 ---
 # Reading: {{ page.title }}
 
+{% include due.md %}
+
 _The particulars of this reading are still to be determined._
 
 For the journal send an email message to me titled "**CSC 321 2017F,

@@ -1,10 +1,13 @@
 ---
-title: "Reading: Getting started with Rails"
+title: Reading
+subtitle: Getting started with Rails
 link: true
 due: 2017-09-05
 due-time: 8:00 p.m.
 ---
-# {{ page.title }}
+# {{ page.title }}: {{ page.subtitle }}
+
+{% include due.md %}
 
 Read Chapter 4 of _Engineering Software as a Service_ (aka "The SaaSbook").
 

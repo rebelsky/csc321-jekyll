@@ -8,6 +8,8 @@ due-time: 9:00pm Sunday
 ---
 # {{ page.title }}: {{ page.subtitle }}
 
+{% include due.md %}
+
 Read sections 3.1-3.4 of the SaaSbook (a.k.a. _Engineering Software as
 a Service_) and then answer the following questions.
 

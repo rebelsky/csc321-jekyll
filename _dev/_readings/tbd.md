@@ -1,6 +1,10 @@
 ---
-title: To be determined
+title: Reading
+subtitle: To be determined
 section: readings
 ---
-To be determined
-----------------
+# {{ page.title }}: {{ page.subtitle }}
+
+{% include due.md %}
+
+Read X

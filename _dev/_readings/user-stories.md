@@ -9,6 +9,8 @@ due-time: 9:00pm Thursday
 ---
 # {{ page.title }} : {{ page.subtitle }}
 
+{% include due.md %}
+
 1. Read sections 7.1-7.5 of the SaaSbook.
 
 2. Watch at least one SaaSbook video for those sections in "full

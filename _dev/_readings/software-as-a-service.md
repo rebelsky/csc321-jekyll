@@ -9,6 +9,8 @@ due-time: 9:00pm Tuesday
 ---
 # {{ page.title }}
 
+{% include due.md %}
+
 1. Skim chapters 2 and 4 of the SaaSbook, focusing primarily on the
 concept of "Software as a Service".
 

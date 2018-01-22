@@ -9,6 +9,8 @@ current: true
 ---
 # {{ page.title }}: {{ page.subtitle }}
 
+{% include due.md %}
+
 Read chapter 1 and sections 10.1-10.2 of the SaaSbook.
 
 Watch at least one SaaSbook video for those sections in "full attention"

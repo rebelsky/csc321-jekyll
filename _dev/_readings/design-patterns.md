@@ -9,6 +9,8 @@ due-time: 9:00pm Sunday
 ---
 # {{ page.title }}: {{ page.subtitle }}
 
+{% include due.md %}
+
 Read Chapter 11 of the SaaSbook
 
 For the journal send an email message to me titled "**{{ site.courseid

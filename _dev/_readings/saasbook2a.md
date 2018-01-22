@@ -7,7 +7,9 @@ day: 5
 due: 2018-01-30
 due-time: 9:00pm Tuesday
 ---
-# {{ page.title }}
+# {{ page.title }}: {{ page.subtitle }}
+
+{% include due.md %}
 
 Read the introduction to chapter 2 and Sections 2.1 to 2.4 of the SaaSbook.
 

@@ -9,6 +9,8 @@ due-time: 9:00pm Tuesday
 ---
 # {{ page.title }}: {{ page.subtitle }}
 
+{% include due.md %}
+
 Read the following:
 
 * Chapter 9 of the SaaSbook
