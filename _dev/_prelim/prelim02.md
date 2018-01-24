@@ -25,6 +25,7 @@ link: true
 
 ### Good things to do (Academic)
 
-* Convocation Thursday: Democracy at the Roots: Culture and Sovereignty in Haiti
+* Convocation Thursday at 11 in JRC 101: 
+  Democracy at the Roots: Culture and Sovereignty in Haiti
 * CS extras Thursday: Summer research opportunities in CS.
 

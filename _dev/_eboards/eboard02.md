@@ -42,10 +42,14 @@ Preliminaries
 
 ### Good things to do (Academic)
 
-* Convocation Thursday: Democracy at the Roots: Culture and Sovereignty in Haiti
+* Convocation Thursday at 11 in JRC 101: 
+  Democracy at the Roots: Culture and Sovereignty in Haiti
 * CS extras Thursday: Summer research opportunities in CS.
 
 ### Questions
+
+About how long is the typical question response in a journal entry?
+  : A paragraph.  So, say, 50-100 words.
 
 Reflections on the assignment
 -----------------------------
@@ -64,6 +68,21 @@ confusions.  We're going to talk through them.
 
 ### Chomping and more
 
+Three versions
+
+```
+# v1
+text = gets
+text.chomp!
+text.downcase!
+
+# v2
+text = gets.chomp
+text.downcase!
+
+# v3
+text = gets.chomp.downcase
+
 * `chomp` is a pure operation.  It returns a new string.
 * `chomp!` is a mutator.  It changes the underlying string.
 * `downcase` is a pure operation.  It returns a new string.
@@ -72,12 +91,36 @@ confusions.  We're going to talk through them.
 Some questions
 
 * What do you think happens if we give `downcase` a string that is
-  already lowercase?
+  already lowercase?  Does it give you the same string or a
+  copy?
+    * A copy.
+    * Why?  So that we can change the two independently.
 * What value do we get from `downcase!` if the string is already
-  lowercase?
+  lowercase?  It doesn't change the string, but what does it
+  return?
+    * `nil`.  
+    * Why?  Provides a signal to the caller.  The primary goal
+      is to mutate the string.  We return nil to say "No changes
+      necessary"  We return the string to say "Changed!"
+    * Although it may be tempting to write 
+      `text = gets.chomp!.downcase!`, you can't.
 * Why use strategy 1? (Sequence of side-effecting operations)
+    * Might want to reuse
+    * Saves memory!
+    * Some people like the clarity of "one instruction per line"
 * Why use strategy 3? (Chained pure operations)
+    * Concise and clear; saves programmer conceptual time
+    * May help avoid problems (e.g., I mistyped a variable name)
+    * We might actually want all three versions (although this
+      form doesn't give it to us)
+         ```
+         text1 = gets
+         text2 = text1.chomp
+         text3 = text2.downcase
+         ```
 * Why use strategy 2? (What the Tutorial uses)
+    * A good middle ground.
+    * No one really wants the one with the newline.
 
 ### Redaction
 
@@ -85,6 +128,20 @@ Some questions
 * But it's complicated.  
 * You don't want to use `text.gsub(redact, "REDACTED")`.
     * Why not?
+    * The redacted thing can appear *within* a word
+
+```
+irb(main):008:0> text = "concatenate those cats, catherine!"
+=> "concatenate those cats, catherine!"
+irb(main):009:0> redact = "cat"
+=> "cat"
+irb(main):010:0> text.gsub(redact,"READACTEASDFDA")
+=> "conREADACTEASDFDAenate those READACTEASDFDAs, READACTEASDFDAherine!"
+irb(main):011:0> text
+=> "concatenate those cats, catherine!"
+```
+
+_Conclusion: Sam should have been nicer on grading this one._
 
 ### Hash tables
 
@@ -92,14 +149,20 @@ Some questions
 frequencies = frequencies.sort_by {|a, b| b }
 ```
 
+* A hash table is an array of key-value pairs (or, more frequently,
+  lists of key-value pairs)
+* We run a hash function on the key, mod by the table size, and
+  add to that bucket in the array.
 * Given that hash tables are necessarily stored according to hash value,
   it makes no sense to think of sorting a hash table in place.
 * What might `sort` therefore do?
     * We could have a separate sorted list of keys for when we want
       to iterate.
     * `sort` could return a list of key/value pairs that are sorted by
-      the key.
-    * ...
+      the key.  (That's what Ruby does)
+* Sam thinks that any sensible language would disallow this.
+    * Before assignment statement, `frequencies` is a hash
+    * After assignment statement, `frequencies` is a list of pairs
 
 ### Superclass constructor
 
@@ -125,7 +188,17 @@ def get_rating
 end
 ```
 
+* We might use `rating = gets.chomp.to_i`.
+* The indentation is wrong!
+* Uses a structure we don't know.
+* Logic issue.  Any non-number will give 0.
+* Positive: Nice refactoring
+* Potential UI issue: If I enter 3.5, it does not store 3.5 and I 
+  don't know that.
+
 ### Mixins
+
+_Nope, we didn't get this far.  We might on Monday or Wednesday._
 
 Why don't I like the following code?  (Apologies to the author.)
 
@@ -221,6 +294,8 @@ end
 
 Broader reflections on Ruby
 ---------------------------
+
+_Nope, we didn't get this far.  We might on Monday or Wednesday_
 
 _Think->Share->Pair_
 
