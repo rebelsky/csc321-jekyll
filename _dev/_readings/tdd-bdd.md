@@ -24,8 +24,8 @@ the code that does the work, and the Capybara support).
 3. Suppose you didn't want to use Cucumber.  How else might you prepare
 to use BDD?
 
-4. What's the most confusing part of BDD/Cucumber?  Explain it in
-your own words.
+4. What's the most confusing part of BDD/Cucumber?  Explain the topic
+in your own words.  Then explain your questions.
 
 5. How does Fox and Patterson's presentation of test-driven development
 compare to your prior experiences with unit testing?
@@ -39,5 +39,5 @@ to explain this idea in your own words. What questions remain?
 8. What do you see as the relationship(s) between BDD and TDD?  
 
 9. What do you see as the most important or enduring concept in this
-chapter overall?
+chapter overall?  Why?
 

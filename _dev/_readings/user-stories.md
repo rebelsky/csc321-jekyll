@@ -38,5 +38,5 @@ for the CS course planner from the perspective of the deparmtent chair,
 a faculty member, or a student.
 
 5. What confused you the most about the reading on user stories?  Explain
-the issue as best you can.
+the issue as best you can.  Then explain your remaining confusions.
 

@@ -30,5 +30,5 @@ to explain this idea in your own words. What questions remain?
 (based on user stories) and TDD?  
 
 5. What do you see as the most important or enduring concept in this
-chapter overall?
+chapter overall?  Why?
 

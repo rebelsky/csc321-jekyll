@@ -18,6 +18,6 @@ Which one do you prefer and why?
 feature and your confusion as best you can.
 
 For the journal send an email message to me titled "**CSC 321 2017F,
-Journal for Class 3 (*Name*)**" (without the quotation marks) and with
+Journal for Class 4 (*Name*)**" (without the quotation marks) and with
 answers to those questions in the body of the email.
 

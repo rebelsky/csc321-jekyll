@@ -31,5 +31,7 @@ plan-and-document approach?
 3. What are you most excited to learn more about later in the semester?
 Why?
 
-4. What point confused you the most?  Try to explain it in your own words.
+4. What point confused you the most?  Try to explain that point in your 
+own words.  For example, if you are confused by Service-Oriented Architecture,
+try to explain what SOA is.
 

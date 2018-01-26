@@ -22,5 +22,5 @@ with answers to the following questions.
 2. Figure out how to represent a many:many relationship in SQL and explain it
 to the best of your ability.
 
-2. Figure out how to represent a many:many relationship in Rails and explain it
-to the best of your ability.
+2. Figure out how to represent a many:many relationship in Rails and explain 
+that representation to the best of your ability.
