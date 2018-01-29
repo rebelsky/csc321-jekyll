@@ -6,6 +6,7 @@ schedule: 2018-01-31
 day: 5
 due: 2018-01-30
 due-time: 9:00pm Tuesday
+current: true
 ---
 # {{ page.title }}: {{ page.subtitle }}
 

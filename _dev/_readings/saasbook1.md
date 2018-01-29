@@ -5,7 +5,6 @@ link: true
 schedule: 2018-01-26
 due: 2018-01-25
 due-time: 9:00pm Thursday
-current: true
 ---
 # {{ page.title }}: {{ page.subtitle }}
 
