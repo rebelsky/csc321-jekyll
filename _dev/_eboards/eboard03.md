@@ -3,7 +3,6 @@ title: Eboard 03  An introduction to software engineering
 number: 03
 section: eboards
 held: 2018-01-26
-current: true
 ---
 CSC 321.01, Class 03:  An introduction to software engineering
 ==============================================================
