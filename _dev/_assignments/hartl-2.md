@@ -76,9 +76,7 @@ Heroku.  What are some earlier steps in which a commit might be appropriate?
 7. A student who was experimenting with this application added the following
 line to `app/views/microposts/index.html.erb`.  Explain what this code does.
 
-    ```
-    <td><%= micropost.user ? micropost.user.name : "???" %></td>
-    ```
+    `<td><%= micropost.user ? micropost.user.name : "???" %></td>`
 
 ## Some notes on using the "traditional" `c9.io`
 
@@ -87,9 +85,7 @@ than the `examples` directory!
 
 2. Don't forget to start your Rails server with 
 
-```
-rails server -b $IP -p $PORT
-```
+    `rails server -b $IP -p $PORT`
 
 3. In section 2.3.4, Hartl references `ApplicationController`.  You may find
 that your application is using `ApplicationRecord` instead.
