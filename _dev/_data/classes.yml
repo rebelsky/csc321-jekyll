@@ -49,25 +49,23 @@
   abbrev: rails-intro
   summary: We begin to consider the use of Rails
   subjects:
-    - A brief introduction to regular expressions
-    - Start Hartl 2
+    - Model-View-Controller
+    - Making better use of Git
+    - Other Rails issues
 
 - topic: Your first database-backed Rails application
   abbrev: toy-app
   summary: We explore the issues in building a database-backed Web application.
   subjects:
-    - Model-View-Controller
+    - Model-View-Controller, revisited
     - Convention vs. configuration
     - The components of a Rails application
-    - Start Hartl 3
 
 - topic: A static site
   abbrev: static-site
   summary: We begin to develop a larger Rails application from scratch
   subjects: 
     - Assorted questions
-    - Yielding
-    - Start Hartl 5
 
 - topic: User stories
   abbrev: user-stories
