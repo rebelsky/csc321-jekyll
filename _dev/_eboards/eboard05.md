@@ -4,7 +4,6 @@ number: 05
 section: eboards
 held: 2018-01-31
 link: true
-current: true
 ---
 CSC 321.01, Class 05:  Web technologies
 =======================================
