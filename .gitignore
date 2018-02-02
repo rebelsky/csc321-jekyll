@@ -65,3 +65,6 @@ CSC151
 # +---------------------+--------------------------------------------
 # | Fork-Specific Rules |
 # +---------------------+
+
+# Don't put examples in the repo.  No one needs examples.
+examples
