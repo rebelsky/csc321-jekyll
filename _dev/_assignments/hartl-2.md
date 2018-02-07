@@ -5,6 +5,7 @@ link: true
 schedule: 2018-02-05
 due: 2018-02-04
 due-time: 10:30pm Sunday
+current: true
 ---
 # {{ page.title }} : {{ page.subtitle }}
 
@@ -24,17 +25,16 @@ it saves you from big mistakes.  (If you don't know the alternative to
 
 ## Your primary task
 
-**Do all of the steps and exercises in Chapter 2 of Hartl.**  You will
-be answering some questions on those steps.  You may find it useful to
-read the questions in advance.
+**Do all of the steps and exercises in [Chapter 2 of Michael Hartl's
+_The Rails Tutorial_](https://www.railstutorial.org/book/toy_app).**
+You will then answer some questions on those steps.  You may find it
+useful to read the questions in advance.
 
 ## What to submit
 
-A. Share your Cloud 9 instance with me.
-
-A. Send me answers to the following questions in a message entitled
-"**{{ site.courseid }} {{ site.semester }}, {{ page.title }}: {{
-page.subtitle }} (_Name_)**".  Please replace _Name_ with your name.
+Send me answers to the following questions in a message entitled "**{{
+site.courseid }} {{ site.semester }}, {{ page.title }}: {{ page.subtitle
+}} (_Name_)**".  Please replace _Name_ with your name.
 
 0. What is the URL of your Cloud 9 instance?  (E.g., 
 `https://ide.c9.io/username/rails-tutorial`.)
