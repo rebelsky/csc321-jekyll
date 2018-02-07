@@ -5,7 +5,8 @@ link: true
 ---
 ### News and notes
 
-* Mentor session ?-? Sunday night
+* GitSwag!
+* Mentor session 7-8 Sunday night
     * KY recommends that you start the homework in advance.
 * Alumni mentors visit next Wednesday.  Please try to clear lunch time,
   4pm for their talk, (and 1pm, if possible).
@@ -24,6 +25,9 @@ link: true
 * CS extras Thursday: The evolution of CSC 151
 * Rosenfield symposium this week
 * MET opera on Saturday.
+* Contra dance Friday at 8pm in Younker Lounge.  Live music!
+* Two cool shows in the Faulconer.
+* Islam week events next week (details forthcoming)
 
 ### Good things to do (Other)
 

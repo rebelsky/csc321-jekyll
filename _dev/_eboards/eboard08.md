@@ -6,7 +6,7 @@ held: 2018-02-07
 link: true
 current: true
 ---
-CSC 321.01, Class 08:  A static site
+CSC 321.01, Class 08: A static site
 ====================================
 
 _Overview_
@@ -25,7 +25,8 @@ Preliminaries
 
 ### News and notes
 
-* Mentor session ?-? Sunday night
+* GitSwag!
+* Mentor session 7-8 Sunday night
     * KY recommends that you start the homework in advance.
 * Alumni mentors visit next Wednesday.  Please try to clear lunch time,
   4pm for their talk, (and 1pm, if possible).
@@ -44,6 +45,9 @@ Preliminaries
 * CS extras Thursday: The evolution of CSC 151
 * Rosenfield symposium this week
 * MET opera on Saturday.
+* Contra dance Friday at 8pm in Younker Lounge.  Live music!
+* Two cool shows in the Faulconer.
+* Islam week events next week (details forthcoming)
 
 ### Good things to do (Other)
 
@@ -234,6 +238,8 @@ end
 Discussion: Making homework (more) reasonable
 ---------------------------------------------
 
+Background
+
 * When I first started assigning Hartl, I did not ask for writeups.  
 * My experience was that too many students just typed commands and didn't
   really pay attention to what the steps meant or think more broadly about
@@ -246,8 +252,24 @@ Discussion: Making homework (more) reasonable
 * So I added the questions to get you to pay closer attention.
 * But "pay attention to Hartl" plus "answer Sam's questions" appears to
   be taking too much time.
-* So what should we do?
+
+What should we do? (Think Pair Share)
+
+* Will working in groups (already permitted) help?
+    * Don't force us to work in groups.
+    * But allow those of us who want to work in groups
+* How many questions is appropriate?
+* Make less due
+    * Sam will look at the schedule
+    * Or at least less "show your work"
+* Do we (our successors) need to do chapter 1?
+* Stop reinforcing principles
+* Do the weirder questions in class, rather than in homework
+    * "Be prepared to discuss the following"
+* Stretch out the next two homeworks!
 
 Start next homework
 -------------------
+
+_Nope, there was not time._
 
