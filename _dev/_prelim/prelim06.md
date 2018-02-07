@@ -10,6 +10,7 @@ link: true
     * Observation: When things go right, it's reasonable.  But when things
       go wrong, it's really hard to figure out why.
 * The Friday PSA will happen in CSC 322
+* Don't forget to add yourself to the homework channel!
 
 ### Upcoming work
 

@@ -98,6 +98,7 @@ Improvements to the workflow
 * Do your work in a branch so that you can have a longer series of steps
   while still being able to commit.
     * Empowers you to work on partial code.
+    * Branches are also nice for small tests.
 * Add/commit individually (by name) rather than everything.
     * Don't pollute the repo.
     * Don't risk information.
@@ -108,17 +109,48 @@ Improvements to the workflow
 * These days, Sam does a lot of `git stash save` and `git stash pop`.
 * I sometimes find that I need to use `git diff` to recall what changes
   I made.
-* Others?
+* The `.gitignore` file tells Git not to track things.
+* `git log` is useful to get a quick list of what you did (provided
+  you choose good log messages)
 
 Model-View-Controller
 ---------------------
 
 _What is it?_
 
+* Segementation of three parts of a typical application.
+
 _Why do we use it?_
 
+* Components can be swapped out
+    * Can change the UI
+    * Can change the model
+    * Rarely change the controller
+* Might provide some more security; limit the flow of data. 
+* With well-specified APIs, you can work on the three parts
+  separately.  (Often why we segment.)
+* Should be easier to modify code.
+* Makes it easier to read / understand.
+
 _How does MVC relate to the three-tier architecture?_
+
+* Both break the world up into three parts (and a similar
+  three parts).
+* But three-tier provides more limited communication between
+  the parts.
 
 Other Rails issues
 ------------------
 
+* An MVC model for building Web applications.
+* Requires/benefits from a series of magic incantations.
+* "Convention over configuration"
+    * Which files are created
+    * Where it looks for data, etc.
+    * Naming conventions, including an important "s"
+* When things go well, it's easy.
+* When you know it well, it's easy.
+* When you are a novice and things go wrong, it's a PITA.
+* Benefits from a rich plugin system.
+* Normal development cycle: Develop on one machine, deploy on
+  another.
