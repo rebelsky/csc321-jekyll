@@ -6,7 +6,7 @@ schedule: 2018-01-29
 due: 2018-01-28
 due-time: 10:30pm Sunday
 ---
-# {{ page.title }} : {{ page.subtitle }}
+# {{ page.title }}: {{ page.subtitle }}
 
 1. Do the [first set of Ruby exercises from the MOOC](https://github.com/saasbook/hw-ruby-intro).
 

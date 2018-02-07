@@ -6,7 +6,7 @@ schedule: 2018-02-16
 due: 2018-02-15
 due-time: 10:30pm Thursday
 ---
-# {{ page.title }} : {{ page.subtitle }}
+# {{ page.title }}: {{ page.subtitle }}
 
 Do all of the exercises in Hartl, Chapter 6.
 

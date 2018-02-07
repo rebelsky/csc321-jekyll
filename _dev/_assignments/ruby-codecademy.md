@@ -6,7 +6,7 @@ schedule: 2018-01-24
 due: 2018-01-23
 due-time: 10:30pm Tuesday
 ---
-# {{ page.title }} : {{ page.subtitle }}
+# {{ page.title }}: {{ page.subtitle }}
 
 _Warning!  This homework assignment should take you about five hours.
 Make sure that you start with enough time and that you plan breaks to

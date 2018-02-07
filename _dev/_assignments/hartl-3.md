@@ -6,7 +6,7 @@ schedule: 2018-02-07
 due: 2018-02-06
 due-time: 10:30pm Tuesday
 ---
-# {{ page.title }} : {{ page.subtitle }}
+# {{ page.title }}: {{ page.subtitle }}
 
 _I expect that this assignment should take you about two hours._
 

@@ -6,7 +6,7 @@ schedule: 2018-02-02
 due: 2018-02-01
 due-time: 10:30pm Thursday
 ---
-# {{ page.title }} : {{ page.subtitle }}
+# {{ page.title }}: {{ page.subtitle }}
 
 _This assignment should take you between two and three hours._
 
