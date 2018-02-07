@@ -4,7 +4,6 @@ number: 06
 section: eboards
 held: 2018-02-02
 link: true
-current: true
 ---
 CSC 321.01, Class 06:  An introduction to Rails
 ===============================================

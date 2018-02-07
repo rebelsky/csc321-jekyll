@@ -6,6 +6,7 @@ day: 9
 schedule: 2018-02-09
 due: 2018-02-08
 due-time: 9:00pm Thursday
+current: true
 ---
 # {{ page.title }} : {{ page.subtitle }}
 
