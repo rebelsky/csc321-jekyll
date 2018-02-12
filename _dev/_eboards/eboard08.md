@@ -4,7 +4,6 @@ number: 8
 section: eboards
 held: 2018-02-07
 link: true
-current: true
 ---
 CSC 321.01, Class 08: A static site
 ====================================
