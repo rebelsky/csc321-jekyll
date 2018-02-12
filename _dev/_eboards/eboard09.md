@@ -4,7 +4,6 @@ number: 9
 section: eboards
 held: 2018-02-09
 link: true
-current: true
 ---
 CSC 321.01, Class 09:  User stories
 ===================================

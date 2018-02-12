@@ -9,6 +9,9 @@ link: true
   4pm for their talk, (and 1pm, if possible).
 * I have not yet had time to rearrange the schedule.  I'm currently trying
   to figure out when my first free moment will be.
+* From your mentor: Please remind the 321 students that I will have a
+  mentor session from 7-8 on Sunday and another one from 6-8 on Thursday
+  but no session for 321 on Tuesday.
 
 ### Upcoming work
 
@@ -20,14 +23,14 @@ link: true
 
 ### Good things to do (Academic/Artistic)
 
-* Rosenfield symposium this week
 * MET opera on Saturday.
 * Contra dance Friday at 8pm in Younker Lounge.  Live music!
 * Two cool shows in the Faulconer.
 * Islam week events next week (details forthcoming)
+* Megan Goering design talk on Tuesday
 * Wednesday visitors.
 * I've been told that there's something on campus that doesn't fit my
-  worldview: A concert on Rathje 3rd.
+  worldview: A concert on Rathje 3rd.  Saturday 3rd.
 
 ### Good things to do (Other)
 
