@@ -111,10 +111,6 @@
   read: SaaSbook 8
   summary: We explore a "test-first" approach to developing programs.  (Guest lecture by JDS)
 
-- topic: Project wrapup
-  abbrev: project-wrapup
-  summary: We conclude our Rails project and debrief on issues we encountered.
-
 - topic: Legacy code and code smells
   abbrev: legacy
   summary: We consider a variety of ways to handle existing code and to identify likely trouble spots.  We also begin to consider ways to address problematic code.
@@ -124,6 +120,10 @@
   abbrev: refactoring
   summary: We continue to explore ways to address problematic code.
   read: ???
+
+- topic: Project wrapup
+  abbrev: project-wrapup
+  summary: We conclude our Rails project and debrief on issues we encountered.
 
 - topic: Design patterns
   abbrev: design-patterns

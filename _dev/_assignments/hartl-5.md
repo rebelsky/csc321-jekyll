@@ -2,9 +2,9 @@
 title: HW 6
 subtitle: Extending your Rails application (Hartl, Chapter 5)
 link: true
-schedule: 2018-02-12
-due: 2018-02-11
-due-time: 10:30pm Sunday
+schedule: 2018-02-14
+due: 2018-02-13
+due-time: 10:30pm Tuesday
 current: true
 ---
 # {{ page.title }}: {{ page.subtitle }}

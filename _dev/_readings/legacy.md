@@ -2,10 +2,10 @@
 title: Reading
 subtitle: Legacy code
 link: true
-schedule: 2018-02-28
+schedule: 2018-02-26
 day: 17
-due: 2018-02-27
-due-time: 9:00pm Tuesday
+due: 2018-02-25
+due-time: 9:00pm Sunday
 ---
 # {{ page.title }}: {{ page.subtitle }}
 
