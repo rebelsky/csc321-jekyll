@@ -30,15 +30,12 @@ Send me answers to the following questions in a message entitled "**{{
 site.courseid }} {{ site.semester }}, {{ page.title }}: {{ page.subtitle
 }} (_Name_)**".  Please replace _Name_ with your name.
 
-0. What is the URL of your Cloud 9 instance?  (E.g.,
+1. What is the URL of your Cloud 9 instance?  (E.g.,
 `https://ide.c9.io/username/rails-tutorial`.)  I realize that you've
 told me before, but it's easier to have it in this location.
 
-1. What is the URL of your GitHub or BitBucket repo?
+2. What is the URL of your GitHub or BitBucket repo?
 
-2. What is the URL of your Heroku application?
+3. What is the URL of your Heroku application?
 
-3. The suggested `README.md` refers to `LICENSE.md`.  Where does that
-latter file come from?
-
-_Remaining questions forthcoming!_
+_Sam neglected to write the remaining instructions.  Just send your URLs._
