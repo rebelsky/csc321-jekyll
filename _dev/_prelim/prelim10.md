@@ -14,6 +14,7 @@ link: true
 * I *think* I've fixed the schedule.
      * Links are to eboards rather than outlines.  (Future links don't work.)
      * Changed due dates of assignments.
+* Mentor sessions Tuesday and Thursday.
 
 ### Upcoming work
 
@@ -28,7 +29,7 @@ link: true
 ### Good things to do (Academic/Artistic)
 
 * Two cool shows in the Faulconer.
-* Islam week events this wee.
+* Islam week events this week.
 * Megan Goering design talk on Tuesday at 7pm.
 * Wednesday visitors.
 * _Deej_ the movie this Thursday at 7pm in Harris.
