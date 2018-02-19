@@ -98,13 +98,20 @@
     - TBD
   summary: We continue to expand the capabilities of our sample Web application.
 
-- topic: Modeling relational data in SQL
-  abbrev: sql
-  summary: We explore what is happening "behind the scenes" in Ruby and see how to model data using SQL.
+- topic: Modeling data 
+  abbrev: modeling-data
+  summary: We consider some basic issues in modeling data.
+  subjects:
+    - Some basics of modeling
+    - Considering relationships
+    - Examples
 
 - topic: Modeling data, continued
   abbrev: modeling-data-continued
-  summary: We continue to explore ways to model data and the relationships between data.  (Guest lecture by KY)
+  summary: We continue to explore ways to model data in SQL and Rails and the relationships between data.  (Guest lecture by KY)
+    - A problem domain
+    - Updating the database with SQL
+    - Updating the database with Rails console
 
 - topic: Test-driven development (TDD)
   abbrev: tdd
